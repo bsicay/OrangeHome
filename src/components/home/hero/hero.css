@@ -1,0 +1,160 @@
+.hero {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.mainTitle {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+
+.left-container {
+  background-color: #F49730;
+  padding: 10% 5%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #595959;
+}
+
+.hero h1 span {
+  color: #FFFFFF;
+  background-color: #fff;
+}
+
+.right-banner {
+  width: 55%;
+  /* position: relative; */
+  overflow: hidden; 
+}
+
+.slider-container {
+  width: 100%;
+  height: 120%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover; 
+}
+
+form.flex {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  right: 35%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+form span {
+  font-size: 14px;
+  color: grey;
+}
+
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+form .box:nth-child(1) {
+  border-left: none;
+}
+
+form h4 {
+  font-weight: 500;
+}
+
+.mainSubtitle {
+  color: #FFFFFF !important;
+}
+
+.mainTitle-mobile {
+  display: none;
+
+}
+
+.btn1 {
+  background-color:#F49730;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .left-container {
+    display: none;
+  }
+
+  .right-banner {
+    background-color: rgba(0, 0, 0, 8); /* Semi-transparent background for readability */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+  }
+
+  .mainTitle-mobile {
+    display: contents;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+
+  .mainTitle-mobile h1 {
+    font-size: 40px;
+  }
+
+  form.flex {
+    position: relative;
+    width: 100%;
+    max-width: 90%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    margin-top:90px;
+    flex-wrap: wrap;
+  }
+
+  form .box {
+    padding: 10px;
+    width: 100%;
+    border-left: none;
+  }
+}
