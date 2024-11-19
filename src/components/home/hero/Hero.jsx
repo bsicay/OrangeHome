@@ -7,11 +7,12 @@ import "../../common/header/header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
 
+
 const Hero = () => {
   const carouselImages = [
-    "./images/banner.png",
-    "./images/banner2.png",
-    "./images/banner.png",
+    "../../../../public/images/banner.png",
+    "../../../../public/images/banner2.png",
+    "../../../../public/images/banner.png",
   ]
   const settings = {
     dots: true,

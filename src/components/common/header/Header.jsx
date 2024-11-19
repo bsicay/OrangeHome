@@ -3,6 +3,7 @@ import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
 
+
 const Header = () => {
   const [navList, setNavList] = useState(false)
 
@@ -11,7 +12,7 @@ const Header = () => {
       <header>
         <div className='logo-container'>
           <div className='logo'>
-            <img src='https://cdn.discordapp.com/attachments/717418780065529856/1307492599011217498/OHWH.png?ex=673a80df&is=67392f5f&hm=686a7d593a5bd16ed91c06829f5fbc80d8deeb6369ac11382dd31dfb23302b34&' alt='Orange Home Logo' />
+            <img src='../../../../public/images/OHWH.png' alt='Orange Home Logo' />
           </div>
         </div>
         <div className='nav-container'>
