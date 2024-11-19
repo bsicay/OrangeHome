@@ -54,9 +54,9 @@ export const featured = [
 export const list = [
   {
     id: 1,
-    cover: "images/list/p-1.png",
+    cover:  `${process.env.PUBLIC_URL}/images/list/p-1.png`,
     images: [
-      "images/list/p-1.png",
+      `${process.env.PUBLIC_URL}/images/list/p-1.png`,
       "./images/list/p-1-1.png",
       "/images/list/p-1-2.png",
       "images/list/p-1-3.png",
