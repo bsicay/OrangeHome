@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../common/header/Header"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom" // Usa HashRouter
 import Home from "../home/Home"
 import Footer from "../common/footer/Footer"
 import About from "../about/About"
@@ -9,7 +9,6 @@ import Blog from "../blog/Blog"
 import Services from "../services/Services"
 import Contact from "../contact/Contact"
 import HouseDetail from '../houseDetail/HouseDetail'
-
 
 const Pages = () => {
   return (
@@ -23,7 +22,7 @@ const Pages = () => {
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/pricing' component={Pricing} />
           <Route exact path='/contact' component={Contact} />
-          <Route exact path="/house/:id" component={HouseDetail } />
+          <Route exact path='/house/:id' component={HouseDetail} />
         </Switch>
         <Footer />
       </Router>
