@@ -10,10 +10,11 @@ import { Link } from "react-router-dom"
 
 const Hero = () => {
   const carouselImages = [
-    "../../../../public/images/banner.png",
-    "../../../../public/images/banner2.png",
-    "../../../../public/images/banner.png",
-  ]
+    `${process.env.PUBLIC_URL}/images/banner.png`,
+    `${process.env.PUBLIC_URL}/images/banner2.png`,
+    `${process.env.PUBLIC_URL}/images/banner.png`,
+  ];
+  
   const settings = {
     dots: true,
     infinite: true,
