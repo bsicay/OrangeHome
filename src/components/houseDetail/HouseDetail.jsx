@@ -56,7 +56,7 @@ const HouseDetail = () => {
     centerPadding: "30%",
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 0,
+    autoplaySpeed: 1000,
   };
 
   // Convertir los detalles en un array de pares clave-valor
