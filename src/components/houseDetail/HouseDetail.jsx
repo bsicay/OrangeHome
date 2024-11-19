@@ -49,14 +49,14 @@ const HouseDetail = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "30%",
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 0,
   };
 
   // Convertir los detalles en un array de pares clave-valor
