@@ -21,7 +21,7 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src='../images/OHWH.png' alt='' />
+              <img src='images/OHWH.png' alt='' />
               <h2>¿Necesitas ayuda con algo?</h2>
               <p>Actualizaciones, promociones exclusivas y descuentos, enviados directamente a tu correo cada mes.</p>
               <div className='input flex'>

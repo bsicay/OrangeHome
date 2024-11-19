@@ -10,8 +10,8 @@ import { Link } from "react-router-dom"
 
 const Hero = () => {
   const carouselImages = [
-    "../../../../images/banner.png",
-    "../../../images/banner2.png",
+    "images/banner.png",
+    "images/banner2.png",
     "images/banner.png",
   ]
   const settings = {
