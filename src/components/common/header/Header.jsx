@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
+import img from '../../../../public/images/OHWH.png'
+
 
 
 const Header = () => {
@@ -12,7 +14,7 @@ const Header = () => {
       <header>
         <div className='logo-container'>
           <div className='logo'>
-            <img src='../../../../public/images/OHWH.png' alt='Orange Home Logo' />
+            <img src={img} alt='Orange Home Logo' />
           </div>
         </div>
         <div className='nav-container'>
