@@ -1,3 +1,9 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 .hero {
   display: flex;
   flex-direction: row; /* Asegura que en pantallas grandes, los elementos estén uno al lado del otro */
@@ -6,6 +12,7 @@
   /* height: auto; */
   min-height: 75vh;
   position: relative; /* Necesario para posicionar el formulario relativamente a .hero */
+  overflow: hidden;
 }
 
 .mainTitle {
@@ -38,27 +45,52 @@
 
 .right-banner {
   width: 55%;
-  height: auto;
-  /* position: relative; */
+  height: 100%;
   overflow: hidden; 
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .slider-container {
   width: 100%;
-  /* height: 120%; */
+  height: 10%;
   position: relative;
   /* top: 0;
   left: 0; */
 }
 
-.carousel-image {
-  width: 100%;
-  /* height: 110vh; */
-  height: auto;
-  object-fit: cover; 
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
 }
+
+.slick-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.slide {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.carousel-image {
+  width: 160%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
 
 .mainTitle-mobile {
   display: none;
@@ -135,9 +167,15 @@ form h4 {
 
 }
 
-.btn1 {
+.btnHero {
   background-color:#F49730;
+  color: white !important;
 }
+
+/* .fa  {
+  color: #FFFFFF;
+  font-size: medium;
+} */
 
 @media screen and (max-width: 1280px) {
 
@@ -189,7 +227,7 @@ form h4 {
   }
 
   .mainTitle-mobile h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .mainSubtitle {
@@ -208,6 +246,7 @@ form h4 {
     position: relative;
     left: auto;
     right: auto;
+    bottom: 10px;
     width: 100%;
     margin: 0 auto;
     width: 90%;
