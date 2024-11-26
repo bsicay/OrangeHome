@@ -51,25 +51,25 @@ const Hero = () => {
             <h1 className='mainSubtitle'>sueños</h1>
           </div>
           <form className='flex'>
-            <div className='box'>
-              <span>Área</span>
-              <input type='text' placeholder='Elige el área' />
-            </div>
-            <div className='box'>
-              <span>Dormitorios</span>
-              <input type='text' placeholder='Cantidad de dormitorios' />
-            </div>
-            <div className='box'>
-              <span>Tipo</span>
-              <input type='text' placeholder='Tipo de vivienda' />
-            </div>
-            <div className='box'>
-              <h4>Filtro avanzado</h4>
-            </div>
-            <button className='btn1'>
-              <i className='fa fa-search'></i>
-            </button>
-          </form>
+              <div className='box'>
+                <span>Área</span>
+                <input type='text' placeholder='Elige el área' />
+              </div>
+              <div className='box'>
+                <span>Dormitorios</span>
+                <input type='text' placeholder='Cantidad de dormitorios' />
+              </div>
+              <div className='box'>
+                <span>Tipo</span>
+                <input type='text' placeholder='Tipo de vivienda' />
+              </div>
+              <div className='box'>
+                <h4>Filtro avanzado</h4>
+              </div>
+              <button className='btn1'>
+                <i className='fa fa-search'></i>
+              </button>
+            </form>
         </div>
       </section>
     </>
