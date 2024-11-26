@@ -15,12 +15,12 @@ header {
   justify-content: left;
 }
 
-.logo-container img {
+/* .logo-container img {
 
-}
+} */
 
 .nav-container {
-  background-color: rgba(0, 0, 0, 0.8); /* Negro semi-transparente */
+  background-color: rgba(83, 81, 81, 0.8);
   width: 55%; /* Ajusta el ancho de la columna de navegación */
   display: flex;
   align-items: center;
@@ -45,30 +45,6 @@ header {
   color: #F49730;
 }
 
-.nav-container .button h4 {
-  font-weight: 500;
-  color: #fff;
-  margin-right: 20px;
-}
-
-.nav-container .button span {
-  width: auto;
-  padding: 0px 6px;
-  background: #F49730;
-  border-radius: 50px;
-  color: #ffffff;
-  margin-right: 4px;
-  font-weight: 400;
-}
-
-.nav-container .btn1 {
-  background-color: #F49730;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
 
 .nav-container .toggle {
   display: none;
@@ -80,12 +56,29 @@ header {
   }
 
   .logo-container img {
-    width: 150px;
+    width: 100%;
+    height: 60%;
     margin-top: 15px;
+  }
+
+  .logo-container {
+    width: 75%;
+  }
+  .nav-container {
+    background-color: #F49730;
+    width: 25%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .nav-container .nav ul li a:hover {
+    color: white;
   }
 
   .nav-container .button {
     display: none;
+    background-color: #fff;
   }
 
   .nav-container .nav .flex {
@@ -93,9 +86,10 @@ header {
   }
 
   .nav-container .toggle {
+
     display: block;
-    margin-top: 20px;
-    color: #fff;
+    border-radius: 10px  !important;
+    /* margin-top: 20px; */
   }
 
   .nav-container .small {
@@ -103,13 +97,21 @@ header {
     top: 10vh;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(83, 81, 81, 0.9);
     padding: 20px;
+    flex-direction: column;
   }
 
   .nav-container li a {
+    margin-top: -10%;
     display: inline-block;
     margin-bottom: 20px;
-    color: #fff;
+    color: black;
+  }
+
+  .iconB {
+    background-color: #595959;
+    color: white;
+    border-radius: 10px  !important;
   }
 }

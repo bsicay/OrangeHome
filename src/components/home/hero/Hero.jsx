@@ -6,7 +6,8 @@ import "slick-carousel/slick/slick-theme.css"
 import "../../common/header/header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   const carouselImages = [
@@ -39,11 +40,14 @@ const Hero = () => {
         <div className='right-banner'>
           <div className="slider-container">
             <Slider {...settings}>
-              {carouselImages.map((image, index) => (
-                <div key={index}>
+            {carouselImages.map((image, index) => (
+                <div key={index} >
+                  {/* <img src={image} alt={`Slide ${index + 1}`} className='carousel-image' /> */}
                   <img src={image} alt={`Slide ${index + 1}`} className='carousel-image' />
+
                 </div>
               ))}
+        
             </Slider>
           </div>
           <div className='mainTitle-mobile'>
@@ -51,25 +55,26 @@ const Hero = () => {
             <h1 className='mainSubtitle'>sueños</h1>
           </div>
           <form className='flex'>
-            <div className='box'>
-              <span>Área</span>
-              <input type='text' placeholder='Elige el área' />
-            </div>
-            <div className='box'>
-              <span>Dormitorios</span>
-              <input type='text' placeholder='Cantidad de dormitorios' />
-            </div>
-            <div className='box'>
-              <span>Tipo</span>
-              <input type='text' placeholder='Tipo de vivienda' />
-            </div>
-            <div className='box'>
-              <h4>Filtro avanzado</h4>
-            </div>
-            <button className='btn1'>
-              <i className='fa fa-search'></i>
-            </button>
-          </form>
+              <div className='box'>
+                <span>Área</span>
+                <input type='text' placeholder='Elige el área' />
+              </div>
+              <div className='box'>
+                <span>Dormitorios</span>
+                <input type='text' placeholder='Cantidad de dormitorios' />
+              </div>
+              <div className='box'>
+                <span>Tipo</span>
+                <input type='text' placeholder='Tipo de vivienda' />
+              </div>
+              <div className='box'>
+                <h4>Filtro avanzado</h4>
+              </div>
+              <button className='btnHero'>
+              <FontAwesomeIcon icon={faSearch} />
+              </button>
+
+            </form>
         </div>
       </section>
     </>
