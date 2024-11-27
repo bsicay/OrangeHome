@@ -9,9 +9,9 @@ body {
   background-color: #fff;
 }
 
-html, body {
+/* html, body {
   overflow-x: hidden;
-}
+} */
 
 .container {
   max-width: 80%;
