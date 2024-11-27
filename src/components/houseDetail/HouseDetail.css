@@ -314,6 +314,11 @@
 
 @media screen and (max-width: 768px) {
 
+  body {
+    overflow-x: hidden; /* Esto bloquearía el scroll */
+  }
+  
+
   .carousel {
     width: 100%;
     padding: 0px;
@@ -570,13 +575,13 @@
   background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
   color: white;
   border: none;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
   border-radius: 50%;
   z-index: 1000;
   transition: background-color 0.3s ease;
-  width: 10%;
-  font-size: 20px;
+  width: 5%;
+  font-size: 10px;
 }
 
 .nav-button:hover {
@@ -598,13 +603,13 @@
   background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
   color: white;
   border: none;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
   border-radius: 50%;
   z-index: 1000;
   transition: background-color 0.3s ease;
-  width: 10%;
-  font-size: 20px;
+  width: 5%;
+  font-size: 10px;
 }
 
 .close-modal:hover {
