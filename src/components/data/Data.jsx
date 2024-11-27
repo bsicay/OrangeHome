@@ -364,15 +364,8 @@ export const price = [
 ]
 export const footer = [
   {
-    title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Propiedades Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    title: "Contáctanos",
+    text: [{ list: "Casa 6B1 Sector Comercial, Residenciales San José, San José Pinula" }, { list: "+502 6664-3209" }],
   },
-  {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
-  },
-  {
-    title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
-  },
+
 ]

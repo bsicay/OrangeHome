@@ -12,7 +12,7 @@ const Footer = () => {
               <h1>¿Quieres Ponerte en Contacto?</h1>
               <p>Te acompañamos en el proceso de encontrar tu hogar perfecto.</p>
             </div>
-            <button className='btn5'>Contáctanos Ahora</button>
+            <button className='btnContact'>Contáctanos Ahora</button>
           </div>
         </div>
       </section>
@@ -20,13 +20,13 @@ const Footer = () => {
       <footer>
         <div className='container'>
           <div className='box'>
-            <div className='logo'>
+            <div className='logoF'>
               <img src='images/OHWH.png' alt='' />
               <h2>¿Necesitas ayuda con algo?</h2>
               <p>Actualizaciones, promociones exclusivas y descuentos, enviados directamente a tu correo cada mes.</p>
-              <div className='input flex'>
+              <div className='input'>
                 <input type='text' placeholder='Email Address' />
-                <button>Subscribe</button>
+                <button className='btnSus' >Suscribirme</button>
               </div>
             </div>
           </div>

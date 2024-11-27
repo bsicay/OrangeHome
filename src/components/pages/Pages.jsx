@@ -9,11 +9,14 @@ import Blog from "../blog/Blog"
 import Services from "../services/Services"
 import Contact from "../contact/Contact"
 import HouseDetail from '../houseDetail/HouseDetail'
+import ScrollToTop from "../../scripts/ScrollToTop";
+
 
 const Pages = () => {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
