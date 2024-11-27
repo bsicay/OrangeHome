@@ -8,6 +8,11 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 80%;
   margin: auto;

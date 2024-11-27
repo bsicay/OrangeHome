@@ -19,7 +19,8 @@ const Header = () => {
         </div>
         <div className='nav-container'>
           <div className='nav'>
-            <ul className={navList ? "small" : "flex"}>
+            {/* Utilizamos la clase 'show' para controlar la visibilidad */}
+            <ul className={`menu ${navList ? "show" : ""}`}>
               {nav.map((list, index) => (
                 <li key={index}>
                   <Link to={list.path}>{list.text}</Link>
