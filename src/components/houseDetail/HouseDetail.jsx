@@ -1,5 +1,6 @@
-import React, { useState } from 'react'; // Para manejar el estado del modal
+import React, { useState, useEffect } from 'react'; // Para manejar el estado del modal
 import Modal from 'react-modal'; // Usaremos esta librería para el visor de imágenes
+import Back from "../common/Back"
 
 import { useParams } from 'react-router-dom';
 import { list } from '../data/Data';
@@ -12,6 +13,8 @@ import { FaCheckCircle } from 'react-icons/fa'; // Ícono para amenidades
 import { MapContainer } from 'https://cdn.esm.sh/react-leaflet/MapContainer'
 import { TileLayer } from 'https://cdn.esm.sh/react-leaflet/TileLayer'
 import { useMap } from 'https://cdn.esm.sh/react-leaflet/hooks'
+import Heading from "../common/Heading"
+import img from "../images/services.jpg"
 
 const HouseDetail = () => {
   const { id } = useParams();
@@ -26,11 +29,28 @@ const HouseDetail = () => {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
 
   const openModal = (index) => {
     setCurrentImageIndex(index);
     setModalIsOpen(true);
   };
+
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    window.addEventListener('resize', handleResize);
+    
+    // Limpieza del listener al desmontar el componente
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+  
 
   const closeModal = () => {
     setModalIsOpen(false);
@@ -49,11 +69,11 @@ const HouseDetail = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 1600,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerMode: true,
-    centerPadding: "30%",
+    centerMode: !isMobile,
+    centerPadding: isMobile ? "0%" : "30%",
     arrows: true,
     autoplay: true,
     autoplaySpeed: 1000,
@@ -69,23 +89,23 @@ const HouseDetail = () => {
 
   // Agrupar las características en columnas de 2 elementos
   const groupedFeatures = [];
-  for (let i = 0; i < features.length; i += 4) {
-    groupedFeatures.push(features.slice(i, i + 4));
+  for (let i = 0; i < features.length; i += isMobile ? 8 :4) {
+    groupedFeatures.push(features.slice(i, i + isMobile ? 8 :4));
   }
 
   // Agrupar las amenidades en columnas de 5 elementos
   const groupedAmenities = [];
-  for (let i = 0; i < amenidades.length; i += 3) {
-    groupedAmenities.push(amenidades.slice(i, i + 3));
+  for (let i = 0; i < amenidades.length; i +=isMobile ? 8 : 3) {
+    groupedAmenities.push(amenidades.slice(i, i + isMobile ? 8 :3));
   }
 
   return (
     <div>
       {/* Contenedor del Título */}
-      <div className='title-container'>
+      {/* <div className='title-container'>
         <h1>Detalle de la Casa</h1>
-      </div>
-
+      </div> */}
+      <Back name='Casa' title='Detalles de la casa' cover={img} />
       {/* Carrusel de Imágenes */}
       <div className='carousel'>
         <Slider {...settings}>
