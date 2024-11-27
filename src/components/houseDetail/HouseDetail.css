@@ -314,7 +314,7 @@
 
 @media screen and (max-width: 768px) {
 
-  html, body {
+  body {
     overflow-x: hidden; /* Esto bloquearía el scroll */
   }
   
@@ -485,36 +485,32 @@
   /* Sección de Galería */
 .gallery-section {
   padding: 40px;
-  width: 130%;
+  width: 100%;
   background-color: #fff;
   border-radius: 10px;
   margin-top:0px;
 }
 
 .gallery-grid {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 0;
+  padding-right: 0;
   justify-content: start;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr; /* Dos columnas */
-  gap: 20px;
-  margin-left: -100px;
+  gap: 10px;
+  margin-left: 0;
 
 }
 
 .gallery-column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  width: 100%;
 }
 
 
 .gallery-column img {
   width: 100%;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+
 }
 
 .gallery-column img:hover {
