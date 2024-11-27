@@ -314,7 +314,7 @@
 
 @media screen and (max-width: 768px) {
 
-  body {
+  html, body {
     overflow-x: hidden; /* Esto bloquearía el scroll */
   }
   
