@@ -1,12 +1,5 @@
 export const nav = [
-  {
-    text: " ",
-    path: "/",
-  },
-  {
-    text: "      ",
-    path: "/about",
-  },
+
   {
     text: "Inicio",
     path: "/",
