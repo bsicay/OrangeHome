@@ -11,7 +11,17 @@ const Header = () => {
   const history = useHistory(); 
 
   const handleLogoClick = () => {
-    history.push("/"); 
+
+    if (window.location.pathname !== "/") {
+      history.push("/");
+      
+      setNavList(false); // Cierra el menú si está abierto
+    }
+
+  }
+
+  const handleLinkClick = () => {
+    setNavList(false) // Cierra el menú al hacer clic en un enlace
   }
 
   return (
@@ -28,7 +38,7 @@ const Header = () => {
             <ul className={`menu ${navList ? "show" : ""}`}>
               {nav.map((list, index) => (
                 <li key={index}>
-                  <Link to={list.path}>{list.text}</Link>
+                  <Link to={list.path} onClick={handleLinkClick} >{list.text}</Link>
                 </li>
               ))}
             </ul>

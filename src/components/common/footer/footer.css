@@ -18,20 +18,23 @@ footer .container {
   grid-template-columns: 6fr 2fr 2fr 1fr;
   grid-gap: 20px;
 }
-footer img {
-  width: 150px;
-}
+
 footer h2 {
   font-weight: 500;
 }
 footer p {
-  color: grey;
+  color: rgb(209, 209, 209);
   margin: 20px 0;
+}
+
+.input {
+  display: flex;
 }
 footer input {
   background-color: #fff;
   padding: 17px;
   width: 100%;
+  margin-right: 10px;
   border-radius: 5px;
 }
 footer h3 {
@@ -43,8 +46,9 @@ footer ul {
 }
 footer ul li {
   display: block;
-  color: grey;
+  color: (209, 209, 209);
   margin-bottom: 20px;
+  margin-left: 0px;
 }
 .legal {
   text-align: center;
@@ -53,8 +57,98 @@ footer ul li {
   color: rgba(255, 255, 255, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.logoF {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+.logoF img{
+  width: 40%;
+  height: auto;
+  margin-bottom: 20px;
+  transform: translateX(-30px);
+
+}
+
+.btnContact {
+  border-radius: 50px;
+  padding: 20px 40px;
+  color: #F49730;
+  font-size: 20px;
+  font-weight: 400;
+  border: 5px solid #F497301f;
+  background: #fff;
+}
+
+
 @media screen and (max-width: 800px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footerContact {
+    padding: 20px 0;
+
+  }
+  .footerContact h1 {
+    font-size: 20px;
+  }
+
+  .footerContact p {
+    font-size: 15px;
+  } 
+  
+  .btnContact {
+    border-radius: 50px;
+    padding: 10px 25px;
+    color: #F49730;
+    font-weight:400;
+    border: 5px solid #F497301f;
+    background: #fff;
+    font-size: 1.2rem !important;
+  }
+
+  .logoF img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transform: translateX(-20px);
+  
+  }
+
+  .container h2 {
+    font-size: 20px;
+  }
+
+  .container p {
+    font-size: 15px;
+  }
+
+  .box h3 {
+    font-size: 20px;
+  }
+
+  .box li {
+    font-size: 15px;
+  }
+
+  .input {
+    display:inline-block;
+    color: #000; /* Asegura que el texto escrito sea visible */
+    font-size: 14px; /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  footer input::placeholder {
+    align-items: center;
+    color: black; /* Ajusta el color del placeholder */
+    font-size: 14px; /* Asegura un tamaño legible en móviles */
+  }
+
+  .btnSus {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+
 }

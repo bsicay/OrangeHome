@@ -1,4 +1,4 @@
-import React,  { useState }  from "react"
+import React,  { useState , useEffect}  from "react"
 import Slider from "react-slick"
 import "./hero.css"
 import "slick-carousel/slick/slick.css"
@@ -13,12 +13,12 @@ const Hero = () => {
   const carouselImages = [
     "images/banner.png",
     "images/banner2.png",
-    "images/banner.png",
+    "images/banner4.png",
   ]
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -28,6 +28,10 @@ const Hero = () => {
   }
   const [navList, setNavList] = useState(false)
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <>
       <section className='hero'>
@@ -67,9 +71,9 @@ const Hero = () => {
                 <span>Tipo</span>
                 <input type='text' placeholder='Tipo de vivienda' />
               </div>
-              <div className='box'>
+              {/* <div className='box'>
                 <h4>Filtro avanzado</h4>
-              </div>
+              </div> */}
               <button className='btnHero'>
               <FontAwesomeIcon icon={faSearch} />
               </button>
