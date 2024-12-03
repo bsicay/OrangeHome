@@ -8,7 +8,7 @@ const Location = () => {
     <>
       <section className='location padding'>
         <div className='container'>
-          <Heading title='Buscar por locación' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
+          <Heading title='Buscar por locación' subtitle='Encuentra las mejores opciones en las ubicaciones más destacadas. Tenemos la propiedad perfecta donde la necesitas.' />
 
           <div className='content grid3 mtop'>
             {location.map((item, index) => (
