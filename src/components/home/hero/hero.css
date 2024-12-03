@@ -140,10 +140,21 @@ form span {
   color: grey;
 }
 
+.options {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: black;
+}
+
 input::placeholder {
   font-size: 17px;
   color: black;
 }
+
 
 form .box {
   padding: 15px;
@@ -177,6 +188,8 @@ form h4 {
   font-size: medium;
 } */
 
+
+
 @media screen and (max-width: 1280px) {
 
   .hero {
@@ -193,6 +206,27 @@ form h4 {
     color: #595959;
   }
   
+}
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.dropdown li {
+  padding: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.dropdown li:hover {
+  background-color: #f49730;
+  color: white;
 }
 
 @media screen and (max-width: 800px) {

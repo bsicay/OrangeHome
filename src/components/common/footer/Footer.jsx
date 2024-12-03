@@ -1,8 +1,20 @@
 import React from "react"
 import { footer } from "../../data/Data"
 import "./footer.css"
+import { useHistory } from "react-router-dom";
 
 const Footer = () => {
+
+  const history = useHistory();
+
+  const handleClick = () => {
+
+
+      history.push("/contact");
+      
+
+  }
+
   return (
     <>
       <section className='footerContact'>
@@ -12,7 +24,7 @@ const Footer = () => {
               <h1>¿Quieres Ponerte en Contacto?</h1>
               <p>Te acompañamos en el proceso de encontrar tu hogar perfecto.</p>
             </div>
-            <button className='btnContact'>Contáctanos Ahora</button>
+            <button className='btnContact' onClick={handleClick}>Contáctanos Ahora</button>
           </div>
         </div>
       </section>
