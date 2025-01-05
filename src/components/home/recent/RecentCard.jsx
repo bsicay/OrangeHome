@@ -11,7 +11,7 @@ const RecentCard = () => {
         {list.map((val) => {
           const { id, cover, category, location, name, bedrooms, bathrooms, size, type } = val
           return (
-            <Link to={`/house/1`} key={id}>
+            <Link to={`/house/${id}`} key={id}>
               <div className='box shadow'>
                 <div className='img'>
                   <img src={cover} alt='' />
