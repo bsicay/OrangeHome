@@ -8,7 +8,7 @@ const Team = () => {
     <>
       <section className='team background'>
         <div className='container'>
-          <Heading title='Nuestros agentes' subtitle='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.' />
+          <Heading title='Nuestros agentes' subtitle='Ponte en contacto con nuestros agentes y recibe la asesoría personalizada que necesitas para encontrar la casa de tus sueños. Estamos aquí para ayudarte en cada paso del proceso.' />
 
           <div className='content mtop grid3'>
             {team.map((val, index) => (
@@ -20,7 +20,6 @@ const Team = () => {
                     <i className='fa-solid fa-circle-check'></i>
                   </div>
                   <i className='fa fa-location-dot'></i>
-                  <label>{val.address}</label>
                   <h4>{val.name}</h4>
                   <div className='button flex'>
                     <button>
