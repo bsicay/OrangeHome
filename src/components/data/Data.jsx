@@ -373,61 +373,62 @@ export const location = [
 ]
 export const team = [
   {
-    list: "50",
-    cover: "images/customer/team-1.jpg",
-    address: "Liverpool, Canada",
-    name: "Asesor 1",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "70",
-    cover: "images/customer/team-2.jpg",
-    address: "Montreal, Canada",
-    name: "Asesor 2",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "80",
-    cover: "images/customer/team-3.jpg",
-    address: "Denever, USA",
-    name: "Asesor 3",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "51",
-    cover: "images/customer/team-4.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Asesor 4",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
     list: "42",
     cover: "images/customer/team-5.jpg",
     address: "2272 Briarwood Drive",
-    name: "Asesor 5",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "38",
-    cover: "images/customer/team-6.jpg",
-    address: "Montreal, USA",
-    name: "Asesor 6",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "38",
-    cover: "images/customer/team-7.jpg",
-    address: "Montreal, USA",
-    name: "Asesor 7",
+    name: "Reyna",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "38",
     cover: "images/customer/team-8.jpg",
     address: "Montreal, USA",
-    name: "Asesor 8",
+    name: "Justyn",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
+  {
+    list: "38",
+    cover: "images/customer/team-7.jpg",
+    address: "Montreal, USA",
+    name: "Pablo",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "38",
+    cover: "images/customer/team-6.jpg",
+    address: "Montreal, USA",
+    name: "Sami",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "51",
+    cover: "images/customer/team-4.jpg",
+    address: "2272 Briarwood Drive",
+    name: "Marvin",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "50",
+    cover: "images/customer/team-1.jpg",
+    address: "Liverpool, Canada",
+    name: "Ervin",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "80",
+    cover: "images/customer/team-3.jpg",
+    address: "Denever, USA",
+    name: "Auri",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "70",
+    cover: "images/customer/team-2.jpg",
+    address: "Montreal, Canada",
+    name: "Jorge",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  }
+  
 ]
 export const price = [
   {
