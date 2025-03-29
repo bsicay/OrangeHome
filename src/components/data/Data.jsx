@@ -46,6 +46,56 @@ export const featured = [
 ]
 export const list = [
   {
+    id: 4,
+    cover: "images/list/4/p-4.png",
+    name: "San José Pinula Home",
+    images: [
+      "images/list/4/p-4.png",
+      "images/list/4/p-1-1.png",
+      "images/list/4/p-1-2.png",
+      "images/list/4/p-1-3.png",
+      "images/list/4/p-1-4.png"
+    ],
+    featuredImages: [
+      "images/featured/4/featured-1.jpeg",
+      "images/featured/4/featured-2.jpeg",
+      "images/featured/4/featured-3.jpeg",
+      "images/featured/4/featured-4.jpeg",
+      "images/featured/4/featured-5.jpeg",
+      "images/featured/4/featured-6.jpeg",
+      "images/featured/4/featured-7.jpeg",
+      "images/featured/4/featured-8.jpeg",
+      "images/featured/4/featured-9.jpeg",
+      "images/featured/4/featured-10.jpeg",
+      "images/featured/4/featured-11.jpeg"
+      ],
+    location: "Residenciales San José, San José Pinula - Sector Claveles",
+    category: "En venta",
+    area: "San José Pinula",
+    bedrooms: 3,
+    bathrooms: 2,
+    size: 108,
+    type: "Casa",
+    description: "Ubicada en Sector Claveles en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
+    embeded: true,
+    details: [ {
+      Niveles: 2,
+      Habitaciones: 3,
+      Baños: 3,
+      Parqueo: 2
+    } ],
+    amenidades:  [
+      "Área de lavandería",
+      "Parqueo",
+      "Sala comedor y cocina",
+    ],
+    features:  [
+      "2 Baños completos",
+      "Parqueo para 2 vehículos",
+      "Sala comedor y cocina",
+    ]
+  },
+  {
     id: 1,
     cover: "images/list/1/p-1.png",
     images: [
@@ -80,9 +130,11 @@ export const list = [
     category: "En venta",
     bedrooms: 4,
     bathrooms: 2,
+    embeded: false,
     size: 400,
     type: "Casa",
     description: "Ubicada en San José Pinula en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
+    area: "San José Pinula",
     details: [ {
       Niveles: 2,
       Habitaciones: 4 ,
@@ -146,6 +198,8 @@ export const list = [
     size: 168,
     type: "Casa",
     description: "Ubicada en Orquídeas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
+    area: "San José Pinula",
+    embeded: false,
     details: [ {
       Niveles: 1,
       Habitaciones: 2,
@@ -197,6 +251,7 @@ export const list = [
     size: 400,
     type: "Casa",
     description: "Ubicada en Orquídeas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
+    embeded: false,
     details: [ {
       Niveles: 2,
       Habitaciones: 3,
@@ -216,54 +271,6 @@ export const list = [
       "Patio trasero con área de lavandería",
       "Construcción tradicional de block",
       "Capacitad para seguir ampliando",
-    ]
-  },
-  {
-    id: 4,
-    cover: "images/list/4/p-4.png",
-    name: "San José Pinula Home",
-    images: [
-      "images/list/4/p-4.png",
-      "images/list/4/p-1-1.png",
-      "images/list/4/p-1-2.png",
-      "images/list/4/p-1-3.png",
-      "images/list/4/p-1-4.png"
-    ],
-    featuredImages: [
-      "images/featured/4/featured-1.jpeg",
-      "images/featured/4/featured-2.jpeg",
-      "images/featured/4/featured-3.jpeg",
-      "images/featured/4/featured-4.jpeg",
-      "images/featured/4/featured-5.jpeg",
-      "images/featured/4/featured-6.jpeg",
-      "images/featured/4/featured-7.jpeg",
-      "images/featured/4/featured-8.jpeg",
-      "images/featured/4/featured-9.jpeg",
-      "images/featured/4/featured-10.jpeg",
-      "images/featured/4/featured-11.jpeg"
-      ],
-    location: "Residenciales San José, San José Pinula - Sector Claveles",
-    category: "En venta",
-    bedrooms: 3,
-    bathrooms: 2,
-    size: 108,
-    type: "Casa",
-    description: "Ubicada en Sector Claveles en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
-    details: [ {
-      Niveles: 2,
-      Habitaciones: 3,
-      Baños: 3,
-      Parqueo: 2
-    } ],
-    amenidades:  [
-      "Área de lavandería",
-      "Parqueo",
-      "Sala comedor y cocina",
-    ],
-    features:  [
-      "2 Baños completos",
-      "Parqueo para 2 vehículos",
-      "Sala comedor y cocina",
     ]
   },
   {
@@ -301,6 +308,7 @@ export const list = [
     size: 70,
     type: "Casa",
     description: "Ubicada en Sector Las Rosas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
+    embeded: false,
     details: [ {
       Niveles: 2,
       Habitaciones: 3,

@@ -3,12 +3,26 @@ import { list } from "../../data/Data"
 import { FaBed, FaBath } from "react-icons/fa"
 import { BiArea } from "react-icons/bi"
 import { Link } from "react-router-dom"
+import { useContext } from "react"
+import { FilterContext } from "../../../context/FilterContext"
+
+
+
 
 const RecentCard = () => {
+
+  const { filters } = useContext(FilterContext)
+
+  const filteredList = list.filter((property) => {
+    const matchArea = filters.area ? property.location === filters.area : true
+    const matchBedrooms = filters.bedrooms ? property.bedrooms === parseInt(filters.bedrooms) : true
+    const matchType = filters.type ? property.type.toLowerCase() === filters.type.toLowerCase() : true
+    return matchArea && matchBedrooms && matchType
+  })
   return (
     <>
       <div className='content grid3 mtop'>
-        {list.map((val) => {
+        {filteredList.map((val) => {
           const { id, cover, category, location, name, bedrooms, bathrooms, size, type } = val
           return (
             <Link to={`/house/${id}`} key={id}>
