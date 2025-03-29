@@ -25,7 +25,7 @@ const HouseDetail = () => {
     return <div>Casa no encontrada</div>;
   }
 
-  const { name, location, description, images, details, features, amenidades, featuredImages } = house;
+  const { name, location, description, embeded, images, details, features, amenidades, featuredImages } = house;
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -141,6 +141,27 @@ const HouseDetail = () => {
             ))}
         </div>
       </div>
+
+
+    {/*Recorrido */}
+    {embeded && (
+      <>
+        <h2 className='section-title'>Recorrido Virtual</h2>
+        <div className=''>
+          <iframe 
+            width="100%" 
+            height="640" 
+            frameBorder="0" 
+            allow="xr-spatial-tracking; gyroscope; accelerometer" 
+            allowFullScreen 
+            scrolling="no" 
+            src="https://kuula.co/share/hldcn/collection/7bYY8?logo=1&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1"
+          ></iframe>
+        </div>
+      </>
+    )}
+
+
 
       {/* Sección de Características */}
       <div className='features-section'>

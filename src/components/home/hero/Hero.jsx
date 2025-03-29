@@ -7,6 +7,10 @@ import "../../common/header/header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { location } from "../../data/Data";
+import { list } from "../../data/Data";
+import { useContext } from "react"
+import { FilterContext } from "../../../context/FilterContext";
+
 
 const Hero = () => {
   const carouselImages = [
@@ -15,10 +19,14 @@ const Hero = () => {
     "images/banner4.png",
   ];
 
+  const uniqueLocations = [...new Set(list.map(item => item.location))];
+
   const [selectedArea, setSelectedArea] = useState("");
   const [areaSuggestions, setAreaSuggestions] = useState(location.map(loc => loc.name));
   const [selectedBedrooms, setSelectedBedrooms] = useState("");
   const [selectedType, setSelectedType] = useState("");
+  const { setFilters } = useContext(FilterContext);
+
 
   const settings = {
     dots: true,
@@ -32,9 +40,20 @@ const Hero = () => {
     arrows: false,
   };
 
+  const handleSearch = (e) => {
+    e.preventDefault();
+    setFilters({
+      area: selectedArea,
+      bedrooms: selectedBedrooms,
+      type: selectedType
+    });
+  };
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
 
   return (
     <>
@@ -66,15 +85,21 @@ const Hero = () => {
           <form className="flex">
             <div className="box">
               <span>Área</span>
-              <input
-                type="text"
-                placeholder="Elige el área"
+              <select
+                className="options"
                 value={selectedArea}
                 onChange={(e) => setSelectedArea(e.target.value)}
-                onFocus={() => setAreaSuggestions(location.map(loc => loc.name))}
-              />
+              >
+
+              <option value="">Seleccione</option>
+                  {uniqueLocations.map((loc, index) => (
+                    <option key={index} value={loc}>
+                      {loc}
+                </option>
+              ))}
+              </select>
               
-              {selectedArea && (
+              {/* {selectedArea && (
                 <ul className="dropdown">
                   {areaSuggestions
                     .filter((name) =>
@@ -89,7 +114,7 @@ const Hero = () => {
                       </li>
                     ))}
                 </ul>
-              )}
+              )} */}
             </div>
             <div className="box">
               <span>Dormitorios</span>
@@ -98,7 +123,7 @@ const Hero = () => {
                 onChange={(e) => setSelectedBedrooms(e.target.value)}
               >
                 <option value="">Seleccione</option>
-                {Array.from({ length: 10 }, (_, i) => i + 1).map((num) => (
+                {Array.from({ length: 6 }, (_, i) => i + 1).map((num) => (
                   <option key={num} value={num}>
                     {num}
                   </option>
@@ -116,7 +141,7 @@ const Hero = () => {
                 <option value="Casas">Casas</option>
               </select>
             </div>
-            <button className="btnHero">
+            <button className="btnHero" onClick={handleSearch}>
               <FontAwesomeIcon icon={faSearch} />
             </button>
           </form>
