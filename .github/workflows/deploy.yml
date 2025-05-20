@@ -61,7 +61,7 @@ jobs:
           path: ./dist
 
       - name: Deploy to CPanel via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
@@ -69,3 +69,4 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./dist
           server-dir: /public_html/
+
