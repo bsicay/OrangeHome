@@ -1,0 +1,33 @@
+.birds-container {
+    position: absolute;
+    top: 400px; /* Ajusta según el diseño */
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 10;
+    overflow-x: hidden;
+  }
+  
+  .birds {
+    width: 550px;
+    animation: flyAcross 5s ease-in-out forwards;
+    position: relative;
+  }
+  
+  @keyframes flyAcross {
+    0% {
+      transform: translateX(-200px) translateY(0px) scale(0.8) rotate(-5deg);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    50% {
+      transform: translateX(50vw) translateY(-40px) scale(1) rotate(0deg);
+    }
+    100% {
+      transform: translateX(100vw) translateY(20px) scale(1) rotate(5deg);
+      opacity: 0;
+    }
+  }
+  

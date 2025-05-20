@@ -40,6 +40,41 @@
   color: #333;
 }
 
+.box {
+  position: relative; /* Esto es clave para que los decorativos se posicionen dentro */
+}
+
+
+.umbrella-deco {
+  display: inline-block;
+  background-image: url("../../../../public/images/decorative/sombrilla.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 100px;
+  height:100px;
+  position: absolute;
+  top: -30px;
+  right: -10px;
+  z-index: 1;
+  pointer-events: none; /* evita interferencias de clic */
+
+}
+
+.root-deco {
+  display: inline-block;
+  background-image: url("../../../../public/images/decorative/root.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  float: left;
+  z-index: 1;
+  pointer-events: none; /* evita interferencias de clic */
+
+}
 
 @media screen and (max-width: 1024px) {
   .content {

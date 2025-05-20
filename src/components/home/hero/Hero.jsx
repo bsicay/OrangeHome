@@ -63,6 +63,7 @@ const Hero = () => {
             <h1>Descubre la casa de tus</h1>
             <h1 className="mainSubtitle">sueños</h1>
           </div>
+          {/* <div className="beach-shadow"></div> */}
         </div>
         <div className="right-banner">
           <div className="slider-container">
@@ -83,6 +84,7 @@ const Hero = () => {
             <h1 className="mainSubtitle">sueños</h1>
           </div>
           <form className="flex">
+            {/* <div className="sombrilla-deco"></div> */}
             <div className="box">
               <span>Área</span>
               <select
@@ -91,14 +93,14 @@ const Hero = () => {
                 onChange={(e) => setSelectedArea(e.target.value)}
               >
 
-              <option value="">Seleccione</option>
-                  {uniqueLocations.map((loc, index) => (
-                    <option key={index} value={loc}>
-                      {loc}
-                </option>
-              ))}
+                <option value="">Seleccione</option>
+                {uniqueLocations.map((loc, index) => (
+                  <option key={index} value={loc}>
+                    {loc}
+                  </option>
+                ))}
               </select>
-              
+
               {/* {selectedArea && (
                 <ul className="dropdown">
                   {areaSuggestions
@@ -118,7 +120,7 @@ const Hero = () => {
             </div>
             <div className="box">
               <span>Dormitorios</span>
-              <select  className="options"
+              <select className="options"
                 value={selectedBedrooms}
                 onChange={(e) => setSelectedBedrooms(e.target.value)}
               >
@@ -133,7 +135,7 @@ const Hero = () => {
             <div className="box">
               <span>Tipo</span>
               <select
-               className="options"
+                className="options"
                 value={selectedType}
                 onChange={(e) => setSelectedType(e.target.value)}
               >

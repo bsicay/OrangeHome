@@ -68,9 +68,9 @@ export const list = [
       "images/featured/4/featured-9.jpeg",
       "images/featured/4/featured-10.jpeg",
       "images/featured/4/featured-11.jpeg"
-      ],
+    ],
     location: "Residenciales San José, San José Pinula - Sector Claveles",
-    category: "En venta",
+    category: "Vendida",
     area: "San José Pinula",
     bedrooms: 3,
     bathrooms: 2,
@@ -78,18 +78,18 @@ export const list = [
     type: "Casa",
     description: "Ubicada en Sector Claveles en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
     embeded: true,
-    details: [ {
+    details: [{
       Niveles: 2,
       Habitaciones: 3,
       Baños: 3,
       Parqueo: 2
-    } ],
-    amenidades:  [
+    }],
+    amenidades: [
       "Área de lavandería",
       "Parqueo",
       "Sala comedor y cocina",
     ],
-    features:  [
+    features: [
       "2 Baños completos",
       "Parqueo para 2 vehículos",
       "Sala comedor y cocina",
@@ -135,19 +135,19 @@ export const list = [
     type: "Casa",
     description: "Ubicada en San José Pinula en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
     area: "San José Pinula",
-    details: [ {
+    details: [{
       Niveles: 2,
-      Habitaciones: 4 ,
+      Habitaciones: 4,
       Salas: 2,
       Baños: 5,
-    } ],
-    amenidades:  [
+    }],
+    amenidades: [
       "Vigilancia 24/7",
       "Salón Social",
       "Caminamientos",
       "Garita de Seguridad",
     ],
-    features:  [
+    features: [
       "Cocina equipada",
       "Comedor",
       "Amplia sala",
@@ -192,7 +192,7 @@ export const list = [
       "images/featured/2/featured-16.jpeg"
     ],
     location: "San José Pinula - Orquídeas",
-    category: "En venta",
+    category: "Vendida",
     bedrooms: 5,
     bathrooms: 1,
     size: 168,
@@ -200,17 +200,17 @@ export const list = [
     description: "Ubicada en Orquídeas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
     area: "San José Pinula",
     embeded: false,
-    details: [ {
+    details: [{
       Niveles: 1,
       Habitaciones: 2,
       Baños: 1,
       Parqueo: 1
-    } ],
-    amenidades:  [
+    }],
+    amenidades: [
       "Lavandería",
       "Parqueo"
     ],
-    features:  [
+    features: [
       "Dos ingresos (área de parqueo o entrada principal) ",
       "Parqueo para un carro",
       "Lavandería techada",
@@ -245,26 +245,26 @@ export const list = [
       "images/featured/3/featured-12.jpeg"
     ],
     location: "San Jose, San José Pinula - Sector Claveles",
-    category: "En venta",
+    category: "Vendida",
     bedrooms: 3,
     bathrooms: 3,
     size: 400,
     type: "Casa",
     description: "Ubicada en Orquídeas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
     embeded: false,
-    details: [ {
+    details: [{
       Niveles: 2,
       Habitaciones: 3,
       Baños: 3,
       Parqueo: 2
-    } ],
-    amenidades:  [
+    }],
+    amenidades: [
       "Patio trasero con área de lavandería",
       "Parqueo",
       "Agua abundante las 24hrs",
       "Muy cerca de comercios y escuelas"
     ],
-    features:  [
+    features: [
       "Sala, Comedor y cocina",
       "Parqueo para 2 vehículos",
       "Segunda sala familiar en segundo nivel",
@@ -300,26 +300,26 @@ export const list = [
       "images/featured/5/featured-13.jpeg",
       "images/featured/5/featured-14.jpeg",
       "images/featured/5/featured-15.jpeg",
-      ],
+    ],
     location: "Residenciales San José, San José Pinula - Sector Las Rosas",
-    category: "En venta",
+    category: "Vendida",
     bedrooms: 3,
     bathrooms: 1,
     size: 70,
     type: "Casa",
     description: "Ubicada en Sector Las Rosas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
     embeded: false,
-    details: [ {
+    details: [{
       Niveles: 2,
       Habitaciones: 3,
       Baños: 1,
       Parqueo: 1
-    } ],
-    amenidades:  [
+    }],
+    amenidades: [
       "Parqueo",
       "Lavandería"
     ],
-    features:  [
+    features: [
       "3 Habitaciones",
       "1 baño completo ",
       "Sala comedor y cocina",
@@ -328,6 +328,341 @@ export const list = [
       "Habitación con acceso a balcón amplio",
     ]
   },
+  {
+    "id": 6,
+    "cover": "images/featured/6/featured-1.jpeg",
+    "name": "Casa en Geranios - Sector Claveles",
+    "images": [
+      "images/featured/6/featured-1.jpeg",
+      "images/featured/6/featured-2.jpeg",
+      "images/featured/6/featured-3.jpeg",
+      "images/featured/6/featured-4.jpeg",
+      "images/featured/6/featured-5.jpeg",
+      "images/featured/6/featured-6.jpeg",
+      "images/featured/6/featured-7.jpeg",
+      "images/featured/6/featured-8.jpeg",
+    ],
+    "featuredImages": [
+      "images/featured/6/featured-1.jpeg",
+      "images/featured/6/featured-2.jpeg",
+      "images/featured/6/featured-3.jpeg",
+      "images/featured/6/featured-4.jpeg",
+      "images/featured/6/featured-5.jpeg",
+      "images/featured/6/featured-6.jpeg",
+      "images/featured/6/featured-7.jpeg",
+      "images/featured/6/featured-8.jpeg",
+    ],
+    "location": "Residenciales San José, San José Pinula - Sector Geranios",
+    "category": "En venta",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "embeded": false,
+    "size": 109,
+    "type": "Casa",
+    "description": "Ubicada en Geranios, dentro de garita. Espaciosa y funcional, ideal para familias.",
+    "area": "San José Pinula",
+    "details": [{
+      "Niveles": 2,
+      "Habitaciones": 4,
+      "Baños": 3,
+      "Parqueo": 2
+    }],
+    "amenidades": [
+      "Área de lavandería techada",
+      "Parqueo techado para dos carros",
+      "Sala comedor y cocina"
+    ],
+    "features": [
+      "Estudio o habitación en primer nivel",
+      "Sala familiar en segundo nivel",
+      "Habitación máster con baño y balcón"
+    ]
+  },
+  {
+    "id": 7,
+    "cover": "images/featured/7/featured-1.jpeg",
+    "name": "Casa en Geranios con regalo",
+    "images": [
+      "images/featured/7/featured-1.jpeg",
+      "images/featured/7/featured-2.jpeg",
+      "images/featured/7/featured-3.jpeg",
+      "images/featured/7/featured-4.jpeg",
+      "images/featured/7/featured-5.jpeg",
+      "images/featured/7/featured-6.jpeg",
+      "images/featured/7/featured-7.jpeg",
+    ],
+    "featuredImages": [
+      "images/featured/7/featured-1.jpeg",
+      "images/featured/7/featured-2.jpeg",
+      "images/featured/7/featured-3.jpeg",
+      "images/featured/7/featured-4.jpeg",
+      "images/featured/7/featured-5.jpeg",
+      "images/featured/7/featured-6.jpeg",
+      "images/featured/7/featured-7.jpeg",
+      "images/featured/7/featured-8.jpeg",
+      "images/featured/7/featured-9.jpeg",
+      "images/featured/7/featured-10.jpeg",
+      "images/featured/7/featured-11.jpeg",
+      "images/featured/7/featured-12.jpeg",
+      "images/featured/7/featured-13.jpeg",
+      "images/featured/7/featured-14.jpeg",
+
+    ],
+    "location": "Residenciales San José, San José Pinula - Sector Geranios",
+    "category": "En venta",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "embeded": false,
+    "size": 0,
+    "type": "Casa",
+    "description": "Casa con regalo incluida. Dentro de garita, cómoda y bien iluminada.",
+    "area": "San José Pinula",
+    "details": [{
+      "Niveles": 2,
+      "Habitaciones": 3,
+      "Baños": 2,
+      "Parqueo": 2
+    }],
+    "amenidades": [
+      "Área de lavandería techada",
+      "Cocina con gabinetes",
+      "Balcón conectado al primer nivel"
+    ],
+    "features": [
+      "Habitación principal con baño y balcón",
+      "Sala comedor integrados",
+      "Espacios iluminados"
+    ]
+  },
+  {
+    "id": 8,
+    "cover": "images/featured/8/featured-1.jpeg",
+    "name": "Casa nueva en Colinas del Norte",
+    "images": [
+      "images/featured/8/featured-3.jpeg",
+      "images/featured/8/featured-4.jpeg",
+      "images/featured/8/featured-5.jpeg",
+      "images/featured/8/featured-6.jpeg",
+      "images/featured/8/featured-7.jpeg",
+    ],
+    "featuredImages": [
+      "images/featured/8/featured-1.jpeg",
+      "images/featured/8/featured-2.jpeg",
+      "images/featured/8/featured-3.jpeg",
+      "images/featured/8/featured-4.jpeg",
+      "images/featured/8/featured-5.jpeg",
+      "images/featured/8/featured-6.jpeg",
+      "images/featured/8/featured-7.jpeg",
+      "images/featured/8/featured-8.jpeg",
+      "images/featured/8/featured-9.jpeg",
+      "images/featured/8/featured-10.jpeg",
+      "images/featured/8/featured-11.jpeg",
+      "images/featured/8/featured-12.jpeg",
+      "images/featured/8/featured-13.jpeg",
+      "images/featured/8/featured-14.jpeg",
+      "images/featured/8/featured-15.jpeg",
+      "images/featured/8/featured-16.jpeg",
+      "images/featured/8/featured-17.jpeg",
+    ],
+    "location": "Colinas del Norte Km18.5, Las Esmeraldas",
+    "category": "En venta",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "embeded": false,
+    "size": 120,
+    "type": "Casa",
+    "description": "Casa nueva en bello sector con garita, áreas verdes y juegos infantiles.",
+    "area": "Colinas del Norte",
+    "details": [{
+      "Niveles": 2,
+      "Habitaciones": 4,
+      "Baños": 3,
+      "Parqueo": 2
+    }],
+    "amenidades": [
+      "Juegos Infantiles",
+      "Cancha deportiva",
+      "Churrasqueras"
+    ],
+    "features": [
+      "Casa familiar de 120m²",
+      "Ambientes iluminados",
+      "Zona residencial con garita"
+    ]
+  },
+  {
+    "id": 9,
+    "cover": "images/featured/9/featured-1.jpeg",
+    "name": "Casa en Sector Tulipanes",
+    "images": [
+      "images/featured/9/featured-2.jpeg",
+      "images/featured/9/featured-3.jpeg",
+      "images/featured/9/featured-4.jpeg",
+      "images/featured/9/featured-5.jpeg",
+      "images/featured/9/featured-6.jpeg",
+    ],
+    "featuredImages": [
+      "images/featured/9/featured-1.jpeg",
+      "images/featured/9/featured-2.jpeg",
+      "images/featured/9/featured-3.jpeg",
+      "images/featured/9/featured-4.jpeg",
+      "images/featured/9/featured-5.jpeg",
+      "images/featured/9/featured-6.jpeg",
+      "images/featured/9/featured-7.jpeg",
+      "images/featured/9/featured-8.jpeg",
+      "images/featured/9/featured-9.jpeg",
+      "images/featured/9/featured-10.jpeg",
+      "images/featured/9/featured-11.jpeg",
+    ],
+    "location": "Residenciales San José, San José Pinula - Sector Tulipanes",
+    "category": "En venta",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "embeded": false,
+    "size": 0,
+    "type": "Casa",
+    "description": "Casa de 2 niveles con patio trasero y construcción reforzada en block.",
+    "area": "San José Pinula",
+    "details": [{
+      "Niveles": 2,
+      "Habitaciones": 3,
+      "Baños": 2,
+      "Parqueo": 1
+    }],
+    "amenidades": [
+      "Patio trasero con área de lavandería",
+      "Parqueo",
+      "Construcción tradicional en block"
+    ],
+    "features": [
+      "Sala, comedor y cocina en primer nivel",
+      "Habitación máster con baño y balcón",
+      "2 habitaciones secundarias"
+    ]
+  },
+  {
+    "id": 10,
+    "cover": "images/featured/10/featured-1.jpeg",
+    "name": "Casa en Colinas del Norte Premium 11",
+    "images": [
+      "images/featured/10/featured-1.jpeg",
+      "images/featured/10/featured-2.jpeg",
+      "images/featured/10/featured-3.jpeg",
+      "images/featured/10/featured-4.jpeg",
+      "images/featured/10/featured-5.jpeg",
+    ],
+    "featuredImages": [
+      "images/featured/10/featured-1.jpeg",
+      "images/featured/10/featured-2.jpeg",
+      "images/featured/10/featured-3.jpeg",
+      "images/featured/10/featured-4.jpeg",
+      "images/featured/10/featured-5.jpeg",
+      "images/featured/10/featured-6.jpeg",
+      "images/featured/10/featured-7.jpeg",
+      "images/featured/10/featured-8.jpeg",
+      "images/featured/10/featured-9.jpeg",
+      "images/featured/10/featured-10.jpeg",
+      "images/featured/10/featured-11.jpeg",
+      "images/featured/10/featured-12.jpeg",
+      "images/featured/10/featured-13.jpeg",
+    ],
+    "location": `Colinas del Norte El Fiscal, Palencia  
+   
+
+    .
+    `,
+    "category": "Vendida",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "embeded": false,
+    "size": 0,
+    "type": "Casa",
+    "description": "Casa con jardín amplio y acceso a piscina, áreas verdes y más amenidades.",
+    "area": "Palencia",
+    "details": [{
+      "Niveles": 2,
+      "Habitaciones": 3,
+      "Baños": 3,
+      "Parqueo": 2
+    }],
+    "amenidades": [
+      "Piscina",
+      "Áreas verdes",
+      "Cancha de fútbol y básquetbol",
+      "Parque para niños",
+      "Mini salón de eventos"
+    ],
+    "features": [
+      "Walk-in clóset en habitación máster",
+      "Jardín amplio",
+      "Cocina con gabinetes"
+    ]
+  },
+  {
+    "id": 11,
+    "cover": "images/featured/11/featured-1.jpeg",
+    "name": "Casa en Orquídeas fuera de garita",
+    "images": [
+      "images/featured/11/featured-1.jpeg",
+      "images/featured/11/featured-2.jpeg",
+      "images/featured/11/featured-3.jpeg",
+      "images/featured/11/featured-4.jpeg",
+      "images/featured/11/featured-5.jpeg",
+    ],
+    "featuredImages": [
+      "images/featured/11/featured-1.jpeg",
+      "images/featured/11/featured-2.jpeg",
+      "images/featured/11/featured-3.jpeg",
+      "images/featured/11/featured-4.jpeg",
+      "images/featured/11/featured-5.jpeg",
+      "images/featured/11/featured-6.jpeg",
+      "images/featured/11/featured-7.jpeg",
+      "images/featured/11/featured-8.jpeg",
+      "images/featured/11/featured-9.jpeg",
+      "images/featured/11/featured-10.jpeg",
+      "images/featured/11/featured-11.jpeg",
+      "images/featured/11/featured-12.jpeg",
+      "images/featured/11/featured-13.jpeg",
+      "images/featured/11/featured-14.jpeg",
+      "images/featured/11/featured-15.jpeg",
+      "images/featured/11/featured-16.jpeg",
+      "images/featured/11/featured-17.jpeg",
+      "images/featured/11/featured-18.jpeg",
+      "images/featured/11/featured-19.jpeg",
+      "images/featured/11/featured-20.jpeg",
+      "images/featured/11/featured-21.jpeg",
+      "images/featured/11/featured-22.jpeg",
+      "images/featured/11/featured-23.jpeg",
+      "images/featured/11/featured-24.jpeg",
+      "images/featured/11/featured-25.jpeg",
+    ],
+    "location": "Residenciales San José, San José Pinula - Sector Orquídeas",
+    "category": "En venta",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "embeded": false,
+    "size": 0,
+    "type": "Casa",
+    "description": "Casa con opción a tercer nivel, ideal para familias que buscan ampliar.",
+    "area": "San José Pinula",
+    "details": [{
+      "Niveles": 2,
+      "Habitaciones": 3,
+      "Baños": 2,
+      "Parqueo": 2
+    }],
+    "amenidades": [
+      "Área de lavandería",
+      "Cocina con gabinetes",
+      "Opción a tercer nivel"
+    ],
+    "features": [
+      "Estudio o habitación en primer nivel",
+      "Habitación máster con baño y balcón",
+      "2 habitaciones secundarias"
+    ]
+  },
+
 ]
 
 export const awards = [
@@ -382,6 +717,7 @@ export const location = [
 export const team = [
   {
     list: "42",
+    isPrimary: false,
     cover: "images/customer/team-5.jpg",
     address: "2272 Briarwood Drive",
     name: "Reyna",
@@ -389,6 +725,7 @@ export const team = [
   },
   {
     list: "38",
+    isPrimary: false,
     cover: "images/customer/team-8.jpg",
     address: "Montreal, USA",
     name: "Justyn",
@@ -396,6 +733,7 @@ export const team = [
   },
   {
     list: "38",
+    isPrimary: true,
     cover: "images/customer/team-7.jpg",
     address: "Montreal, USA",
     name: "Pablo",
@@ -403,6 +741,7 @@ export const team = [
   },
   {
     list: "38",
+    isPrimary: false,
     cover: "images/customer/team-6.jpg",
     address: "Montreal, USA",
     name: "Sami",
@@ -410,6 +749,7 @@ export const team = [
   },
   {
     list: "51",
+    isPrimary: false,
     cover: "images/customer/team-4.jpg",
     address: "2272 Briarwood Drive",
     name: "Marvin",
@@ -417,6 +757,7 @@ export const team = [
   },
   {
     list: "50",
+    isPrimary: false,
     cover: "images/customer/team-1.jpg",
     address: "Liverpool, Canada",
     name: "Ervin",
@@ -424,6 +765,7 @@ export const team = [
   },
   {
     list: "80",
+    isPrimary: false,
     cover: "images/customer/team-3.jpg",
     address: "Denever, USA",
     name: "Auri",
@@ -431,12 +773,13 @@ export const team = [
   },
   {
     list: "70",
+    isPrimary: false,
     cover: "images/customer/team-2.jpg",
     address: "Montreal, Canada",
     name: "Jorge",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   }
-  
+
 ]
 export const price = [
   {
