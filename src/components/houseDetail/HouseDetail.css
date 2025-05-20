@@ -4,12 +4,14 @@
     padding: 70px;
     color: black;
     text-align: left;
+    overflow-x: hidden;
   }
   
 /* Carrusel */
 .carousel {
     margin: 20px auto;
     width: 100%; /* Ajusta el ancho del carrusel */
+    overflow-x: hidden;
   }
   
   .carousel-slide {
@@ -31,6 +33,7 @@
     width: 10%;
     color: white;
     text-align: center;
+    overflow-x: hidden;
   }
   /* Información de la Casa */
   .house-info {
@@ -61,6 +64,7 @@
     gap: 20px;
     border-radius: 10px;
     width: 50%;
+    overflow-x: hidden;
   }
   
   .details-column {
@@ -88,6 +92,7 @@
     position: relative;
     margin: 20px 0;
     margin-top: 10px;
+    overflow-x: hidden;
   }
   
   .section-title::before {
@@ -113,6 +118,7 @@
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
+    overflow-x: hidden;
   }
   
   .features-column {
@@ -154,6 +160,7 @@
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
+    overflow-x: hidden;
   }
   
   .amenities-column {
@@ -183,6 +190,7 @@
   /* Sección de Galería */
 .gallery-section {
   width: 100%;
+  overflow-x: hidden;
 
 }
 
@@ -194,6 +202,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr; /* Dos columnas */
   gap: 20px;
+  overflow-x: hidden;
 }
 
 .gallery-column {
@@ -329,6 +338,7 @@
   
 .type-container {
     width: 30%;
+    overflow-x: hidden;
 
   }
   /* Información de la Casa */
@@ -360,6 +370,7 @@
     gap: 20px;
     border-radius: 10px;
     width: 100%;
+    overflow-x: hidden;
   }
   
   .details-column {
@@ -411,6 +422,7 @@
     display:list-item;
     gap: 40px;
     flex-wrap: wrap;
+    overflow-x: hidden;
     padding: 20px;
   }
   
@@ -453,6 +465,7 @@
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
+    overflow-x: hidden;
   }
   
   .amenities-column {
