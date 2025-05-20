@@ -719,7 +719,7 @@ export const team = [
     list: "42",
     isPrimary: false,
     cover: "images/customer/team-5.jpg",
-    address: "2272 Briarwood Drive",
+    address: "Briarwood Drive",
     name: "Reyna",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
