@@ -571,7 +571,7 @@ export const list = [
 
     .
     `,
-    "category": "Vendida",
+    "category": "En venta",
     "bedrooms": 3,
     "bathrooms": 3,
     "embeded": false,
@@ -660,6 +660,90 @@ export const list = [
       "Estudio o habitación en primer nivel",
       "Habitación máster con baño y balcón",
       "2 habitaciones secundarias"
+    ]
+  },
+  {
+    id: 12,
+    cover: "images/featured/12/featured-1.jpeg",
+    name: "Casa en Orquídeas - Fuera de Garita",
+    images: [
+      "images/featured/12/featured-1.jpeg",
+      "images/featured/12/featured-2.jpeg",
+      "images/featured/12/featured-3.jpeg",
+    ],
+    featuredImages: [
+      "images/featured/12/featured-1.jpeg",
+      "images/featured/12/featured-2.jpeg",
+      "images/featured/12/featured-3.jpeg",
+      "images/featured/12/featured-4.jpeg",
+    ],
+    location: "Residenciales San José, San José Pinula - Sector Orquídeas",
+    category: "En venta",
+    bedrooms: 3,
+    bathrooms: 2,
+    embeded: false,
+    size: 0,
+    type: "Casa",
+    description: "Ubicada en Orquídeas, fuera de garita. Casa espaciosa con opción a tercer nivel y excelentes espacios para la familia.",
+    area: "San José Pinula",
+    details: [{
+      Niveles: 2,
+      Habitaciones: 3,
+      Baños: 2,
+      Parqueo: 2
+    }],
+    amenidades: [
+      "Área de lavandería",
+      "Cocina con gabinetes",
+      "Opción a tercer nivel con terraza techada y muro perimetral"
+    ],
+    features: [
+      "Habitación o estudio en primer nivel",
+      "Habitación máster con baño y balcón",
+      "Dos habitaciones secundarias con baño compartido"
+    ]
+  },
+
+  {
+    id: 13,
+    cover: "images/featured/13/featured-1.jpeg",
+    name: "Casa en Violetas 1",
+    images: [
+      "images/featured/13/featured-1.jpeg",
+      "images/featured/13/featured-2.jpeg",
+      "images/featured/13/featured-3.jpeg",
+    ],
+    featuredImages: [
+      "images/featured/13/featured-1.jpeg",
+      "images/featured/13/featured-2.jpeg",
+      "images/featured/13/featured-3.jpeg",
+      "images/featured/13/featured-4.jpeg",
+    ],
+    location: "Residenciales San José, San José Pinula - Violetas 1",
+    category: "En venta",
+    bedrooms: 4,
+    bathrooms: 4,
+    embeded: false,
+    size: 115,
+    type: "Casa",
+    description: "Hermosa casa con amplio espacio, área verde y excelente distribución. Ubicada en Violetas 1, ideal para familias que buscan comodidad y funcionalidad.",
+    area: "San José Pinula",
+    details: [{
+      Niveles: 2,
+      Habitaciones: 4,
+      Baños: 4,
+      Parqueo: 2
+    }],
+    amenidades: [
+      "Área verde",
+      "Lavandería techada",
+      "Sala familiar en segundo nivel"
+    ],
+    features: [
+      "Habitación con baño privado en primer nivel",
+      "Habitación máster con baño y balcón",
+      "Dos habitaciones secundarias con baño privado",
+      "Parqueo para 2 vehículos (hasta 3 si son pequeños)"
     ]
   },
 

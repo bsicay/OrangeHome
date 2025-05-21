@@ -1,6 +1,7 @@
 .recent .text {
   padding: 30px;
 }
+
 .recent .category span {
   padding: 4px 15px;
   border-radius: 2px;
@@ -8,13 +9,16 @@
   font-size: 13px;
   display: inline-block;
 }
+
 .recent .category i {
   font-size: 20px;
   color: #bec7d8;
 }
+
 .recent p {
   color: #72809d;
 }
+
 .recent .button {
   border-top: 1px solid #e4e8f3;
   padding: 10px 30px;
@@ -41,7 +45,8 @@
 }
 
 .box {
-  position: relative; /* Esto es clave para que los decorativos se posicionen dentro */
+  position: relative;
+  /* Esto es clave para que los decorativos se posicionen dentro */
 }
 
 
@@ -52,12 +57,13 @@
   background-repeat: no-repeat;
   background-position: top right;
   width: 100px;
-  height:100px;
+  height: 100px;
   position: absolute;
   top: -30px;
   right: -10px;
   z-index: 1;
-  pointer-events: none; /* evita interferencias de clic */
+  pointer-events: none;
+  /* evita interferencias de clic */
 
 }
 
@@ -72,24 +78,56 @@
   position: absolute;
   float: left;
   z-index: 1;
-  pointer-events: none; /* evita interferencias de clic */
+  pointer-events: none;
+  /* evita interferencias de clic */
 
 }
 
+.boxCard {
+  position: relative;
+  height: 600px;
+  /* Fija la altura de la tarjeta */
+  overflow: hidden;
+  /* Opcional: oculta el contenido que sobrepase la altura */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Asegura que el contenido se distribuya bien */
+}
+
+.boxCard .img {
+  /* height: 400px; */
+  width: 100%;
+  overflow: hidden;
+}
+
+.boxCard .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* Para que la imagen se recorte proporcionalmente */
+}
+
+
+
 @media screen and (max-width: 1024px) {
   .content {
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-columns: repeat(2, 1fr);
+    /* Dos columnas */
   }
 }
 
 
 @media screen and (max-width: 768px) {
   .content {
-    grid-template-columns: 1fr; /* Una sola columna */
-    gap: 20px; /* Mantén el espacio entre las tarjetas */
+    grid-template-columns: 1fr;
+    /* Una sola columna */
+    gap: 20px;
+    /* Mantén el espacio entre las tarjetas */
   }
 
   .box {
-    margin: 0 auto; /* Asegura que cada tarjeta esté centrada */
+    margin: 0 auto;
+    /* Asegura que cada tarjeta esté centrada */
   }
 }

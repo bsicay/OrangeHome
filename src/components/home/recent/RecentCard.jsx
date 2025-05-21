@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 import { useContext } from "react"
 import { FilterContext } from "../../../context/FilterContext"
 
+import "./recent.css"
 
 
 
@@ -43,7 +44,7 @@ const RecentCard = () => {
           const { id, cover, category, location, name, bedrooms, bathrooms, size, type } = val
           return (
             <Link to={`/house/${id}`} key={id}>
-              <div className='box shadow'>
+              <div className='boxCard shadow'>
                 {/* <div className={category === "Vendida" ? "root-deco" : ""}></div> */}
                 {/* <div className="root-deco"></div> */}
                 <div className='img'>
