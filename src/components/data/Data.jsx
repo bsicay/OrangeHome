@@ -778,7 +778,7 @@ export const list = [
       "images/featured/14/featured-17.jpeg",
   ],
   location: "Residenciales San José, San José Pinula - Bulevar principal",
-  category: "En venta",
+  category: "Vendida",
   bedrooms: 3, // 2 en segundo nivel + 1 que puede usarse como bodega/habitación
   bathrooms: 2,
   embeded: false,
