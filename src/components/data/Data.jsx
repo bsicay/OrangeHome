@@ -637,7 +637,7 @@ export const list = [
       "images/featured/11/featured-25.jpeg",
     ],
     "location": "Residenciales San José, San José Pinula - Sector Orquídeas",
-    "category": "En venta",
+    "category": "Vendida",
     "bedrooms": 3,
     "bathrooms": 2,
     "embeded": false,
@@ -682,7 +682,7 @@ export const list = [
     bedrooms: 3,
     bathrooms: 2,
     embeded: false,
-    size: 0,
+    size: 120,
     type: "Casa",
     description: "Ubicada en Orquídeas, fuera de garita. Casa espaciosa con opción a tercer nivel y excelentes espacios para la familia.",
     area: "San José Pinula",
@@ -724,7 +724,7 @@ export const list = [
     bedrooms: 4,
     bathrooms: 4,
     embeded: false,
-    size: 115,
+    size: 140,
     type: "Casa",
     description: "Hermosa casa con amplio espacio, área verde y excelente distribución. Ubicada en Violetas 1, ideal para familias que buscan comodidad y funcionalidad.",
     area: "San José Pinula",
@@ -746,6 +746,121 @@ export const list = [
       "Parqueo para 2 vehículos (hasta 3 si son pequeños)"
     ]
   },
+
+  {
+  id: 14,
+  cover: "images/featured/14/featured-1.jpeg",
+  name: "Casa con Local Comercial",
+  images: [
+      "images/featured/14/featured-6.jpeg",
+      "images/featured/14/featured-2.jpeg",
+      "images/featured/14/featured-3.jpeg",
+      "images/featured/14/featured-4.jpeg",
+      "images/featured/14/featured-5.jpeg",
+  ],
+  featuredImages: [
+      "images/featured/14/featured-5.jpeg",
+      "images/featured/14/featured-2.jpeg",
+      "images/featured/14/featured-3.jpeg",
+      "images/featured/14/featured-4.jpeg",
+      "images/featured/14/featured-1.jpeg",
+      "images/featured/14/featured-6.jpeg",
+      "images/featured/14/featured-7.jpeg",
+      "images/featured/14/featured-8.jpeg",
+      "images/featured/14/featured-9.jpeg",
+      "images/featured/14/featured-10.jpeg",
+      "images/featured/14/featured-11.jpeg",
+      "images/featured/14/featured-12.jpeg",
+      "images/featured/14/featured-13.jpeg",
+      "images/featured/14/featured-14.jpeg",
+      "images/featured/14/featured-15.jpeg",
+      "images/featured/14/featured-16.jpeg",
+      "images/featured/14/featured-17.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Bulevar principal",
+  category: "En venta",
+  bedrooms: 3, // 2 en segundo nivel + 1 que puede usarse como bodega/habitación
+  bathrooms: 2,
+  embeded: false,
+  size: 140,
+  type: "Casa + Local",
+  description: "Casa con local comercial independiente. Ideal para quienes buscan vivienda con espacio para negocio propio. Amplias habitaciones, terraza y excelente ubicación sobre bulevar principal.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 2,
+    Parqueo: 0
+  }],
+  amenidades: [
+    "Local comercial independiente",
+    "Terraza con acceso desde segundo nivel",
+    "Área de lavandería",
+  ],
+  features: [
+    "Local con baño propio",
+    "Bodega/habitación en primer nivel con baño",
+    "Sala, comedor y cocina en segundo nivel",
+    "Financiamiento bancario disponible",
+    "Aplica con remesas, negocio propio o salario"
+  ]
+},
+
+
+{
+  id: 15,
+  cover: "images/featured/15/featured-1.jpeg",
+  name: "Casa en Violetas II",
+  images: [
+    "images/featured/15/featured-4.jpeg",
+    "images/featured/15/featured-2.jpeg",
+    "images/featured/15/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/15/featured-5.jpeg",
+    "images/featured/15/featured-2.jpeg",
+    "images/featured/15/featured-3.jpeg",
+    "images/featured/15/featured-4.jpeg",
+     "images/featured/15/featured-1.jpeg",
+      "images/featured/15/featured-6.jpeg",
+      "images/featured/15/featured-7.jpeg",
+      "images/featured/15/featured-8.jpeg",
+      "images/featured/15/featured-9.jpeg",
+      "images/featured/15/featured-10.jpeg",
+      "images/featured/15/featured-11.jpeg",
+      "images/featured/15/featured-12.jpeg",
+      "images/featured/15/featured-13.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Violetas II",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 3,
+  embeded: false,
+  size: 115,
+  type: "Casa",
+  description: "Casa de 2 niveles dentro de garita en Violetas II. Con parqueo, habitaciones amplias y excelente distribución. Ideal para familias que desean comodidad y seguridad.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 3,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Garita de seguridad",
+    "Sala familiar",
+    "Lavandería techada"
+  ],
+  features: [
+    "3 habitaciones amplias",
+    "3 baños completos",
+    "Parqueo techado para vehículos",
+    "Cuota accesible desde Q5,885",
+    "Terreno de 6x18 m (108 m²)"
+  ]
+},
+
+
 
 ]
 
