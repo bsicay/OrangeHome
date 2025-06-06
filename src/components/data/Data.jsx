@@ -860,6 +860,99 @@ export const list = [
   ]
 },
 
+{
+  id: 16,
+  cover: "images/featured/16/featured-1.jpeg",
+  name: "Casa en Azahares",
+  images: [
+    "images/featured/16/featured-1.jpeg",
+    "images/featured/16/featured-2.jpeg",
+    "images/featured/16/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/16/featured-1.jpeg",
+    "images/featured/16/featured-2.jpeg",
+    "images/featured/16/featured-3.jpeg",
+    "images/featured/16/featured-4.jpeg",
+    "images/featured/16/featured-5.jpeg",
+    "images/featured/16/featured-6.jpeg",
+    "images/featured/16/featured-7.jpeg"
+  ],
+  location: "Residenciales San José, San José Pinula - Azahares",
+  category: "En venta",
+  bedrooms: 4, // 3 habitaciones principales + 1 con baño privado
+  bathrooms: 2, // 1 baño completo + 1 privado
+  embeded: false,
+  size: 53,
+  type: "Casa",
+  description: "Casa dentro de garita en Azahares, San José Pinula. Con parqueo, jardín y distribución funcional, ideal para familias que buscan comodidad a precio accesible.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 1,
+    Habitaciones: 4,
+    Baños: 2,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Área de lavandería con patio",
+    "Jardín",
+    "Garita de seguridad"
+  ],
+  features: [
+    "Sala, comedor y cocina integrados",
+    "Habitación adicional con baño privado",
+    "Cuotas desde Q3,950 con seguros e IUSI",
+    "Terreno de 5x18 metros"
+  ]
+},
+{
+  id: 17,
+  cover: "images/featured/17/featured-1.jpeg",
+  name: "Casa en Condado San Miguel",
+  images: [
+    "images/featured/17/featured-1.jpeg",
+    "images/featured/17/featured-2.jpeg",
+    "images/featured/17/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/17/featured-1.jpeg",
+    "images/featured/17/featured-2.jpeg",
+    "images/featured/17/featured-3.jpeg",
+    "images/featured/17/featured-4.jpeg",
+    "images/featured/17/featured-5.jpeg",
+    "images/featured/17/featured-6.jpeg",
+    "images/featured/17/featured-7.jpeg",
+    "images/featured/17/featured-8.jpeg",
+  ],
+  location: "Condado San Miguel, Escuintla",
+  category: "En venta",
+  bedrooms: 3, // 2 secundarias + 1 principal
+  bathrooms: 2, // 1 baño de visitas + 1 baño en habitación principal
+  embeded: false,
+  size: 80,
+  type: "Casa",
+  description: "Casa en Condado San Miguel, Escuintla. Espaciosa, con patio y acceso a segundo nivel reforzado para futuras ampliaciones.",
+  area: "Escuintla",
+  details: [{
+    Niveles: 1,
+    Habitaciones: 3,
+    Baños: 2,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Patio amplio",
+    "Acceso a segundo nivel reforzado",
+    "Área de lavandería"
+  ],
+  features: [
+    "Sala, comedor y cocina amplios",
+    "Baño de visitas",
+    "Habitación principal con baño completo",
+    "Cuotas desde Q4,355 con seguro e IUSI",
+    "Terreno de 7x16 metros"
+  ]
+},
+
 
 
 ]
