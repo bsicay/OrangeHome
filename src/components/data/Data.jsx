@@ -952,6 +952,107 @@ export const list = [
     "Terreno de 7x16 metros"
   ]
 },
+{
+  id: 18,
+  cover: "images/featured/18/featured-1.jpeg",
+  name: "Casa en Hacienda Los Olivares",
+  images: [
+    "images/featured/18/featured-1.jpeg",
+    "images/featured/18/featured-2.jpeg",
+    "images/featured/18/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/18/featured-1.jpeg",
+    "images/featured/18/featured-2.jpeg",
+    "images/featured/18/featured-3.jpeg",
+    "images/featured/18/featured-4.jpeg",
+    "images/featured/18/featured-5.jpeg",
+    "images/featured/18/featured-6.jpeg",
+    "images/featured/18/featured-7.jpeg",
+    "images/featured/18/featured-8.jpeg",
+     "images/featured/18/featured-9.jpeg",
+      "images/featured/18/featured-10.jpeg",
+       "images/featured/18/featured-11.jpeg",
+        "images/featured/18/featured-12.jpeg",
+  ],
+  location: "Hacienda Los Olivares, San José Pinula",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 1,
+  embeded: false,
+  size: 145,
+  type: "Casa",
+  description: "Casa en Hacienda Los Olivares con amenidades exclusivas como piscina, coworking y gimnasio. Amplios espacios y excelente ubicación.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 1,
+    Habitaciones: 3,
+    Baños: 1,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Piscina",
+    "Gimnasio",
+    "Área de coworking",
+    "Sala familiar",
+    "Cocina equipada"
+  ],
+  features: [
+    "3 habitaciones con closet",
+    "Sala-comedor con excelente iluminación",
+    "Terreno de 6x17 metros",
+    "145 m² de construcción",
+    "Financiamiento bancario disponible",
+    "Aplica con remesas, negocio propio o salario"
+  ]
+},
+{
+  id: 19,
+  cover: "images/featured/19/featured-1.jpeg",
+  name: "Casa en Condado San Miguel Mzna R",
+  images: [
+    "images/featured/19/featured-1.jpeg",
+    "images/featured/19/featured-2.jpeg",
+    "images/featured/19/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/19/featured-1.jpeg",
+    "images/featured/19/featured-2.jpeg",
+    "images/featured/19/featured-3.jpeg",
+    "images/featured/19/featured-4.jpeg",
+    "images/featured/19/featured-5.jpeg",
+    "images/featured/19/featured-6.jpeg",
+    "images/featured/19/featured-7.jpeg",
+    "images/featured/19/featured-8.jpeg"
+  ],
+  location: "Condado San Miguel Mzna R, Escuintla",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 1,
+  embeded: false,
+  size: 80,
+  type: "Casa",
+  description: "Casa con opción de crecimiento en Condado San Miguel. Con acceso a segundo nivel reforzado, ideal para familias que buscan invertir en su futuro.",
+  area: "Escuintla",
+  details: [{
+    Niveles: 1,
+    Habitaciones: 3,
+    Baños: 1,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Patio amplio",
+    "Acceso a segundo nivel reforzado",
+    "Área de cocina abierta"
+  ],
+  features: [
+    "Sala, comedor y cocina integrados",
+    "Promoción de enganche disponible",
+    "Terreno de 6x16 metros",
+    "Financiamiento bancario disponible",
+    "Aplica con remesas, negocio propio o salario"
+  ]
+},
 
 
 
