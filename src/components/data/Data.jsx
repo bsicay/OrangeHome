@@ -970,10 +970,10 @@ export const list = [
     "images/featured/18/featured-6.jpeg",
     "images/featured/18/featured-7.jpeg",
     "images/featured/18/featured-8.jpeg",
-     "images/featured/18/featured-9.jpeg",
-      "images/featured/18/featured-10.jpeg",
-       "images/featured/18/featured-11.jpeg",
-        "images/featured/18/featured-12.jpeg",
+    "images/featured/18/featured-9.jpeg",
+    "images/featured/18/featured-10.jpeg",
+     "images/featured/18/featured-11.jpeg",
+     "images/featured/18/featured-12.jpeg",
   ],
   location: "Hacienda Los Olivares, San José Pinula",
   category: "En venta",
@@ -1051,6 +1051,113 @@ export const list = [
     "Terreno de 6x16 metros",
     "Financiamiento bancario disponible",
     "Aplica con remesas, negocio propio o salario"
+  ]
+},
+{
+  id: 20,
+  cover: "images/featured/20/featured-1.jpeg",
+  name: "Casa en Villa Las Mercedes",
+  images: [
+    "images/featured/20/featured-1.jpeg",
+    "images/featured/20/featured-2.jpeg",
+    "images/featured/20/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/20/featured-1.jpeg",
+    "images/featured/20/featured-2.jpeg",
+    "images/featured/20/featured-3.jpeg",
+    "images/featured/20/featured-4.jpeg",
+    "images/featured/20/featured-5.jpeg",
+    "images/featured/20/featured-6.jpeg",
+    "images/featured/20/featured-7.jpeg",
+    "images/featured/20/featured-8.jpeg",
+    "images/featured/20/featured-9.jpeg",
+    "images/featured/20/featured-10.jpeg",
+    "images/featured/20/featured-11.jpeg",
+    "images/featured/20/featured-12.jpeg",
+    "images/featured/20/featured-13.jpeg",
+    "images/featured/20/featured-14.jpeg",
+    "images/featured/20/featured-15.jpeg",
+  ],
+  location: "Villa Las Mercedes, Villa Canales",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 2,
+  embeded: false,
+  size: 82,
+  type: "Casa",
+  description: "Casa nueva de 1 nivel en residencial con garita. Ideal para familias que buscan seguridad, comodidad y posibilidad de expansión al segundo nivel.",
+  area: "Villa Canales",
+  details: [{
+    Niveles: 1,
+    Habitaciones: 3,
+    Baños: 2,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Acceso a terraza por gradas",
+    "Patio trasero",
+    "Área de lavandería",
+    "Garita de seguridad"
+  ],
+  features: [
+    "Construcción tradicional en block",
+    "Reforzada para segundo nivel",
+    "Terreno 7x16 metros",
+    "Financiamiento disponible",
+    "Aplica con remesas, negocio propio o salario"
+  ]
+},
+{
+  id: 21,
+  cover: "images/featured/21/featured-2.jpeg",
+  name: "Casa en Hacienda Las Mercedes 2",
+  images: [
+    "images/featured/21/featured-2.jpeg",
+    "images/featured/21/featured-3.jpeg",
+    "images/featured/21/featured-4.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/21/featured-1.jpeg",
+    "images/featured/21/featured-2.jpeg",
+    "images/featured/21/featured-3.jpeg",
+    "images/featured/21/featured-4.jpeg",
+    "images/featured/21/featured-5.jpeg",
+    "images/featured/21/featured-6.jpeg",
+    "images/featured/21/featured-7.jpeg",
+    "images/featured/21/featured-8.jpeg",
+    "images/featured/21/featured-9.jpeg",
+    "images/featured/21/featured-10.jpeg"
+  ],
+  location: "Hacienda Las Mercedes 2, San José Pinula",
+  category: "En venta",
+  bedrooms: 4,
+  bathrooms: 4,
+  embeded: false,
+  size: 220,
+  type: "Casa",
+  description: "Amplia casa de 2 niveles en Hacienda Las Mercedes 2, con espacios modernos, garaje techado y amenidades cercanas. Perfecta para familias numerosas.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 4,
+    Baños: 4,
+    Parqueo: 2
+  }],
+  amenidades: [
+    "Área verde",
+    "Área comercial",
+    "Garita de seguridad"
+  ],
+  features: [
+    "2 habitaciones con baño privado",
+    "3.5 baños en total",
+    "Parqueo techado para 2 vehículos",
+    "Terreno 7x17 metros",
+    "220 m² de construcción",
+    "Financiamiento bancario disponible",
+    "Aplica con remesas, negocio propio o salario",
+    "Cuotas desde Q8,550"
   ]
 },
 
