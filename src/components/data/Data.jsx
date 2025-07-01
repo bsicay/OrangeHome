@@ -1160,6 +1160,122 @@ export const list = [
     "Cuotas desde Q8,550"
   ]
 },
+{
+  id: 22,
+  cover: "images/featured/22/featured-1.jpeg",
+  name: "Casa en Las Orquídeas",
+  images: [
+    "images/featured/22/featured-1.jpeg",
+    "images/featured/22/featured-2.jpeg",
+    "images/featured/22/featured-3.jpeg"
+  ],
+  featuredImages: [
+    "images/featured/22/featured-1.jpeg",
+    "images/featured/22/featured-2.jpeg",
+    "images/featured/22/featured-3.jpeg",
+    "images/featured/22/featured-4.jpeg",
+    "images/featured/22/featured-5.jpeg",
+    "images/featured/22/featured-6.jpeg",
+    "images/featured/22/featured-7.jpeg",
+    "images/featured/22/featured-8.jpeg",
+    "images/featured/22/featured-9.jpeg",
+    "images/featured/22/featured-10.jpeg",
+     "images/featured/22/featured-11.jpeg",
+    "images/featured/22/featured-12.jpeg",
+    "images/featured/22/featured-13.jpeg",
+    "images/featured/22/featured-14.jpeg",
+    "images/featured/22/featured-15.jpeg",
+    "images/featured/22/featured-16.jpeg",
+    "images/featured/22/featured-17.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Las Orquídeas",
+  category: "En venta",
+  bedrooms: 4, // 3 dormitorios + 1 cuarto estudio
+  bathrooms: 3, // 2.5 baños redondeado a 3
+  embeded: false,
+  size: 130,
+  type: "Casa",
+  description: "Casa amplia con excelente distribución y opción de ampliación. Ubicada en el sector Las Orquídeas de Residenciales San José, ideal para familias grandes que buscan seguridad y comodidad.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 4,
+    Baños: 3,
+    Parqueo: 2
+  }],
+  amenidades: [
+    "Agua 24 horas",
+    "Área de lavandería",
+    "Segunda sala familiar",
+    "Patio trasero"
+  ],
+  features: [
+    "Construcción tradicional en block",
+    "Cuarto estudio adicional",
+    "Capacidad para seguir ampliando",
+    "Terreno de 6x18 metros",
+    "Cuota aproximada desde Q5,500"
+  ]
+},
+
+{
+  id: 23,
+  cover: "images/featured/23/featured-1.jpeg",
+  name: "Casa en Hacienda Las Mercedes 2",
+  images: [
+    "images/featured/23/featured-1.jpeg",
+    "images/featured/23/featured-2.jpeg",
+    "images/featured/23/featured-3.jpeg"
+  ],
+  featuredImages: [
+    "images/featured/23/featured-1.jpeg",
+    "images/featured/23/featured-2.jpeg",
+    "images/featured/23/featured-3.jpeg",
+    "images/featured/23/featured-4.jpeg",
+    "images/featured/23/featured-5.jpeg",
+    "images/featured/23/featured-6.jpeg",
+    "images/featured/23/featured-7.jpeg",
+    "images/featured/23/featured-8.jpeg",
+    "images/featured/23/featured-9.jpeg",
+     "images/featured/23/featured-10.jpeg",
+       "images/featured/23/featured-11.jpeg",
+         "images/featured/23/featured-12.jpeg",
+           "images/featured/23/featured-13.jpeg",
+             "images/featured/23/featured-14.jpeg",
+             "images/featured/23/featured-15.jpeg",
+             "images/featured/23/featured-16.jpeg",
+    
+  ],
+  location: "Hacienda Las Mercedes 2, San José Pinula",
+  category: "En venta",
+  bedrooms: 5, // 3 habitaciones + sala extra + habitación principal
+  bathrooms: 4, // 3 baños completos + baño de visitas
+  embeded: false,
+  size: 130,
+  type: "Casa",
+  description: "Casa de 2 niveles con excelente distribución, parqueo para 2 vehículos y sala de estar adicional. Ideal para familias grandes que buscan comodidad y seguridad en San José Pinula.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 5,
+    Baños: 4,
+    Parqueo: 2
+  }],
+  amenidades: [
+    "Parqueo para 2 vehículos",
+    "Área de lavandería techada",
+    "Patio trasero",
+    "Sala de estar adicional"
+  ],
+  features: [
+    "Habitación principal con walk-in closet y baño privado",
+    "Baño de visitas en primer nivel",
+    "Segundo nivel reforzado y bien distribuido",
+    "Terreno de 7x17 metros",
+    "130 m² de construcción",
+    "Financiamiento bancario disponible"
+  ]
+},
 
 
 
