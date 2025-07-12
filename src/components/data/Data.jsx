@@ -45,56 +45,7 @@ export const featured = [
   },
 ]
 export const list = [
-  {
-    id: 4,
-    cover: "images/list/4/p-4.png",
-    name: "San José Pinula Home",
-    images: [
-      "images/list/4/p-4.png",
-      "images/list/4/p-1-1.png",
-      "images/list/4/p-1-2.png",
-      "images/list/4/p-1-3.png",
-      "images/list/4/p-1-4.png"
-    ],
-    featuredImages: [
-      "images/featured/4/featured-1.jpeg",
-      "images/featured/4/featured-2.jpeg",
-      "images/featured/4/featured-3.jpeg",
-      "images/featured/4/featured-4.jpeg",
-      "images/featured/4/featured-5.jpeg",
-      "images/featured/4/featured-6.jpeg",
-      "images/featured/4/featured-7.jpeg",
-      "images/featured/4/featured-8.jpeg",
-      "images/featured/4/featured-9.jpeg",
-      "images/featured/4/featured-10.jpeg",
-      "images/featured/4/featured-11.jpeg"
-    ],
-    location: "Residenciales San José, San José Pinula - Sector Claveles",
-    category: "Vendida",
-    area: "San José Pinula",
-    bedrooms: 3,
-    bathrooms: 2,
-    size: 108,
-    type: "Casa",
-    description: "Ubicada en Sector Claveles en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
-    embeded: true,
-    details: [{
-      Niveles: 2,
-      Habitaciones: 3,
-      Baños: 3,
-      Parqueo: 2
-    }],
-    amenidades: [
-      "Área de lavandería",
-      "Parqueo",
-      "Sala comedor y cocina",
-    ],
-    features: [
-      "2 Baños completos",
-      "Parqueo para 2 vehículos",
-      "Sala comedor y cocina",
-    ]
-  },
+
   {
     id: 1,
     cover: "images/list/1/p-1.png",
@@ -160,172 +111,6 @@ export const list = [
       "Dos Habitaciones Secundarias con  Baño Compartido",
       "Sala Familiar",
       "Vistas al Bosque"
-    ]
-  },
-  {
-    id: 2,
-    cover: "images/list/2/p-2.png",
-    name: "San José Pinula Home",
-    images: [
-      "images/list/2/p-2.png",
-      "images/list/2/p-1-1.png",
-      "images/list/2/p-1-2.png",
-      "images/list/2/p-1-3.png",
-      "images/list/2/p-1-4.png"
-    ],
-    featuredImages: [
-      "images/featured/2/featured-1.jpeg",
-      "images/featured/2/featured-2.jpeg",
-      "images/featured/2/featured-3.jpeg",
-      "images/featured/2/featured-4.jpeg",
-      "images/featured/2/featured-5.jpeg",
-      "images/featured/2/featured-6.jpeg",
-      "images/featured/2/featured-7.jpeg",
-      "images/featured/2/featured-8.jpeg",
-      "images/featured/2/featured-9.jpeg",
-      "images/featured/2/featured-10.jpeg",
-      "images/featured/2/featured-11.jpeg",
-      "images/featured/2/featured-12.jpeg",
-      "images/featured/2/featured-13.jpeg",
-      "images/featured/2/featured-14.jpeg",
-      "images/featured/2/featured-15.jpeg",
-      "images/featured/2/featured-16.jpeg"
-    ],
-    location: "San José Pinula - Orquídeas",
-    category: "Vendida",
-    bedrooms: 5,
-    bathrooms: 1,
-    size: 168,
-    type: "Casa",
-    description: "Ubicada en Orquídeas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
-    area: "San José Pinula",
-    embeded: false,
-    details: [{
-      Niveles: 1,
-      Habitaciones: 2,
-      Baños: 1,
-      Parqueo: 1
-    }],
-    amenidades: [
-      "Lavandería",
-      "Parqueo"
-    ],
-    features: [
-      "Dos ingresos (área de parqueo o entrada principal) ",
-      "Parqueo para un carro",
-      "Lavandería techada",
-      "Sala, comedor y cocina",
-      "Dos habitaciones ",
-      "Un baño completo",
-    ]
-  },
-  {
-    id: 3,
-    cover: "images/list/3/p-1.png",
-    name: "San José Pinula Home",
-    images: [
-      "images/list/3/p-1.png",
-      "images/list/3/p-1-1.png",
-      "images/list/3/p-1-2.png",
-      "images/list/3/p-1-3.png",
-      "images/list/3/p-1-4.png"
-    ],
-    featuredImages: [
-      "images/featured/3/featured-1.jpeg",
-      "images/featured/3/featured-2.jpeg",
-      "images/featured/3/featured-3.jpeg",
-      "images/featured/3/featured-4.jpeg",
-      "images/featured/3/featured-5.jpeg",
-      "images/featured/3/featured-6.jpeg",
-      "images/featured/3/featured-7.jpeg",
-      "images/featured/3/featured-8.jpeg",
-      "images/featured/3/featured-9.jpeg",
-      "images/featured/3/featured-10.jpeg",
-      "images/featured/3/featured-11.jpeg",
-      "images/featured/3/featured-12.jpeg"
-    ],
-    location: "San Jose, San José Pinula - Sector Claveles",
-    category: "Vendida",
-    bedrooms: 3,
-    bathrooms: 3,
-    size: 400,
-    type: "Casa",
-    description: "Ubicada en Orquídeas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
-    embeded: false,
-    details: [{
-      Niveles: 2,
-      Habitaciones: 3,
-      Baños: 3,
-      Parqueo: 2
-    }],
-    amenidades: [
-      "Patio trasero con área de lavandería",
-      "Parqueo",
-      "Agua abundante las 24hrs",
-      "Muy cerca de comercios y escuelas"
-    ],
-    features: [
-      "Sala, Comedor y cocina",
-      "Parqueo para 2 vehículos",
-      "Segunda sala familiar en segundo nivel",
-      "Patio trasero con área de lavandería",
-      "Construcción tradicional de block",
-      "Capacitad para seguir ampliando",
-    ]
-  },
-  {
-    id: 5,
-    cover: "images/list/5/p-5.png",
-    name: "San José Pinula Home",
-    images: [
-      "images/list/5/p-5.png",
-      "images/list/5/p-1-1.png",
-      "images/list/5/p-1-2.png",
-      "images/list/5/p-1-3.png",
-      "images/list/5/p-1-4.png"
-    ],
-    featuredImages: [
-      "images/featured/5/featured-1.jpeg",
-      "images/featured/5/featured-2.jpeg",
-      "images/featured/5/featured-3.jpeg",
-      "images/featured/5/featured-4.jpeg",
-      "images/featured/5/featured-5.jpeg",
-      "images/featured/5/featured-6.jpeg",
-      "images/featured/5/featured-7.jpeg",
-      "images/featured/5/featured-8.jpeg",
-      "images/featured/5/featured-9.jpeg",
-      "images/featured/5/featured-10.jpeg",
-      "images/featured/5/featured-11.jpeg",
-      "images/featured/5/featured-12.jpeg",
-      "images/featured/5/featured-13.jpeg",
-      "images/featured/5/featured-14.jpeg",
-      "images/featured/5/featured-15.jpeg",
-    ],
-    location: "Residenciales San José, San José Pinula - Sector Las Rosas",
-    category: "Vendida",
-    bedrooms: 3,
-    bathrooms: 1,
-    size: 70,
-    type: "Casa",
-    description: "Ubicada en Sector Las Rosas en un lindo Condominio rodeado de bonitas amenidades, naturaleza y tranquilidad ",
-    embeded: false,
-    details: [{
-      Niveles: 2,
-      Habitaciones: 3,
-      Baños: 1,
-      Parqueo: 1
-    }],
-    amenidades: [
-      "Parqueo",
-      "Lavandería"
-    ],
-    features: [
-      "3 Habitaciones",
-      "1 baño completo ",
-      "Sala comedor y cocina",
-      "Área de lavandería ",
-      "Parqueo para 1 vehículo",
-      "Habitación con acceso a balcón amplio",
     ]
   },
   {
@@ -1150,6 +935,201 @@ export const list = [
     "Terreno de 7x17 metros",
     "130 m² de construcción",
     "Financiamiento bancario disponible"
+  ]
+},
+{
+  id: 24,
+  cover: "images/featured/24/featured-1.jpeg",
+  name: "Casa en Tulipanes",
+  images: [
+    "images/featured/24/featured-1.jpeg",
+    "images/featured/24/featured-2.jpeg",
+    "images/featured/24/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/24/featured-1.jpeg",
+    "images/featured/24/featured-2.jpeg",
+    "images/featured/24/featured-3.jpeg",
+    "images/featured/24/featured-4.jpeg",
+    "images/featured/24/featured-5.jpeg",
+    "images/featured/24/featured-6.jpeg",
+    "images/featured/24/featured-7.jpeg",
+    "images/featured/24/featured-8.jpeg",
+    "images/featured/24/featured-9.jpeg",
+    "images/featured/24/featured-10.jpeg",
+    "images/featured/24/featured-11.jpeg",
+    "images/featured/24/featured-12.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Sector Tulipanes",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 3,
+  embeded: false,
+  size: 90,
+  type: "Casa",
+  description: "Casa con excelente distribución en Tulipanes, dentro de Residenciales San José. Construcción 100% block, ideal para familias que buscan comodidad y seguridad.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 3,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Área de lavandería",
+    "Parqueo con portón",
+    "Construcción 100% block"
+  ],
+  features: [
+    "3 habitaciones",
+    "2.5 baños",
+    "Sala, comedor y cocina integrados",
+    "Terreno de 4x18 metros",
+    "Cuotas desde Q3,825"
+  ]
+},
+{
+  id: 25,
+  cover: "images/featured/25/featured-1.jpeg",
+  name: "Casa con Local Comercial Independiente",
+  images: [
+    "images/featured/25/featured-1.jpeg",
+    "images/featured/25/featured-2.jpeg",
+    "images/featured/25/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/25/featured-1.jpeg",
+    "images/featured/25/featured-2.jpeg",
+    "images/featured/25/featured-3.jpeg",
+    "images/featured/25/featured-4.jpeg",
+    "images/featured/25/featured-5.jpeg",
+    "images/featured/25/featured-6.jpeg",
+    "images/featured/25/featured-7.jpeg",
+    "images/featured/25/featured-8.jpeg",
+    "images/featured/25/featured-9.jpeg",
+    "images/featured/25/featured-10.jpeg",
+    "images/featured/25/featured-11.jpeg",
+    "images/featured/25/featured-12.jpeg",
+    "images/featured/25/featured-13.jpeg",
+    "images/featured/25/featured-14.jpeg",
+    "images/featured/25/featured-15.jpeg",
+    "images/featured/25/featured-16.jpeg",
+    "images/featured/25/featured-17.jpeg",
+    "images/featured/25/featured-18.jpeg",
+    "images/featured/25/featured-19.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Bulevar principal",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 4,
+  embeded: false,
+  size: 115,
+  type: "Casa + Local",
+  description: "Casa con local comercial independiente sobre el bulevar principal de Residenciales San José. Ideal para combinar negocio y vivienda.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 4,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Local comercial con baño",
+    "Parqueo techado",
+    "Balcón en habitación principal"
+  ],
+  features: [
+    "2 habitaciones secundarias",
+    "Sala, comedor y cocina integrados",
+    "Terreno de 5x16 metros",
+    "Cuota desde Q5,970 con seguros e IUSI"
+  ]
+},
+{
+  id: 26,
+  cover: "images/featured/26/featured-1.jpeg",
+  name: "Casa en Claveles",
+  images: [
+    "images/featured/26/featured-1.jpeg",
+    "images/featured/26/featured-2.jpeg",
+    "images/featured/26/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/26/featured-1.jpeg",
+    "images/featured/26/featured-2.jpeg",
+    "images/featured/26/featured-3.jpeg",
+    "images/featured/26/featured-4.jpeg",
+    "images/featured/26/featured-5.jpeg",
+      "images/featured/26/featured-6.jpeg",
+        "images/featured/26/featured-7.jpeg",
+          "images/featured/26/featured-8.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Claveles",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 3,
+  embeded: false,
+  size: 90,
+  type: "Casa",
+  description: "Casa en Claveles de 2 niveles con 3 habitaciones y 3 baños completos. Construcción sólida en un sector tranquilo y seguro.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 3,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Área de lavandería",
+    "Patio trasero",
+    "Baños completos en ambos niveles"
+  ],
+  features: [
+    "Enganche desde Q30,000",
+    "Cuotas desde Q4,725",
+    "Terreno de 5x18 metros"
+  ]
+},
+{
+  id: 27,
+  cover: "images/featured/27/featured-1.jpeg",
+  name: "Casa en Claveles con Vistas",
+  images: [
+    "images/featured/27/featured-1.jpeg",
+    "images/featured/27/featured-2.jpeg",
+    "images/featured/27/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/27/featured-1.jpeg",
+    "images/featured/27/featured-2.jpeg",
+    "images/featured/27/featured-3.jpeg",
+    "images/featured/27/featured-4.jpeg",
+
+  ],
+  location: "Residenciales San José, San José Pinula - Claveles",
+  category: "En venta",
+  bedrooms: 4,
+  bathrooms: 4,
+  embeded: false,
+  size: 120,
+  type: "Casa",
+  description: "Casa en Claveles con vistas, ideal para quienes buscan espacios iluminados y funcionales. Balcones y baños privados en habitaciones.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 4,
+    Baños: 4,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Parqueo para 1 vehículo",
+    "Patio amplio con vistas",
+    "Balcones en habitaciones"
+  ],
+  features: [
+    "Cuota desde Q5,290",
+    "Terreno 5x18 metros",
+    "Habitaciones con baño privado"
   ]
 },
 
