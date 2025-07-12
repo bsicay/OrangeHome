@@ -599,70 +599,6 @@ export const list = [
     ]
   },
   {
-    "id": 11,
-    "cover": "images/featured/11/featured-1.jpeg",
-    "name": "Casa en Orquídeas fuera de garita",
-    "images": [
-      "images/featured/11/featured-1.jpeg",
-      "images/featured/11/featured-2.jpeg",
-      "images/featured/11/featured-3.jpeg",
-      "images/featured/11/featured-4.jpeg",
-      "images/featured/11/featured-5.jpeg",
-    ],
-    "featuredImages": [
-      "images/featured/11/featured-1.jpeg",
-      "images/featured/11/featured-2.jpeg",
-      "images/featured/11/featured-3.jpeg",
-      "images/featured/11/featured-4.jpeg",
-      "images/featured/11/featured-5.jpeg",
-      "images/featured/11/featured-6.jpeg",
-      "images/featured/11/featured-7.jpeg",
-      "images/featured/11/featured-8.jpeg",
-      "images/featured/11/featured-9.jpeg",
-      "images/featured/11/featured-10.jpeg",
-      "images/featured/11/featured-11.jpeg",
-      "images/featured/11/featured-12.jpeg",
-      "images/featured/11/featured-13.jpeg",
-      "images/featured/11/featured-14.jpeg",
-      "images/featured/11/featured-15.jpeg",
-      "images/featured/11/featured-16.jpeg",
-      "images/featured/11/featured-17.jpeg",
-      "images/featured/11/featured-18.jpeg",
-      "images/featured/11/featured-19.jpeg",
-      "images/featured/11/featured-20.jpeg",
-      "images/featured/11/featured-21.jpeg",
-      "images/featured/11/featured-22.jpeg",
-      "images/featured/11/featured-23.jpeg",
-      "images/featured/11/featured-24.jpeg",
-      "images/featured/11/featured-25.jpeg",
-    ],
-    "location": "Residenciales San José, San José Pinula - Sector Orquídeas",
-    "category": "Vendida",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "embeded": false,
-    "size": 0,
-    "type": "Casa",
-    "description": "Casa con opción a tercer nivel, ideal para familias que buscan ampliar.",
-    "area": "San José Pinula",
-    "details": [{
-      "Niveles": 2,
-      "Habitaciones": 3,
-      "Baños": 2,
-      "Parqueo": 2
-    }],
-    "amenidades": [
-      "Área de lavandería",
-      "Cocina con gabinetes",
-      "Opción a tercer nivel"
-    ],
-    "features": [
-      "Estudio o habitación en primer nivel",
-      "Habitación máster con baño y balcón",
-      "2 habitaciones secundarias"
-    ]
-  },
-  {
     id: 12,
     cover: "images/featured/12/featured-1.jpeg",
     name: "Casa en Orquídeas - Fuera de Garita",
@@ -746,66 +682,6 @@ export const list = [
       "Parqueo para 2 vehículos (hasta 3 si son pequeños)"
     ]
   },
-
-  {
-  id: 14,
-  cover: "images/featured/14/featured-1.jpeg",
-  name: "Casa con Local Comercial",
-  images: [
-      "images/featured/14/featured-6.jpeg",
-      "images/featured/14/featured-2.jpeg",
-      "images/featured/14/featured-3.jpeg",
-      "images/featured/14/featured-4.jpeg",
-      "images/featured/14/featured-5.jpeg",
-  ],
-  featuredImages: [
-      "images/featured/14/featured-5.jpeg",
-      "images/featured/14/featured-2.jpeg",
-      "images/featured/14/featured-3.jpeg",
-      "images/featured/14/featured-4.jpeg",
-      "images/featured/14/featured-1.jpeg",
-      "images/featured/14/featured-6.jpeg",
-      "images/featured/14/featured-7.jpeg",
-      "images/featured/14/featured-8.jpeg",
-      "images/featured/14/featured-9.jpeg",
-      "images/featured/14/featured-10.jpeg",
-      "images/featured/14/featured-11.jpeg",
-      "images/featured/14/featured-12.jpeg",
-      "images/featured/14/featured-13.jpeg",
-      "images/featured/14/featured-14.jpeg",
-      "images/featured/14/featured-15.jpeg",
-      "images/featured/14/featured-16.jpeg",
-      "images/featured/14/featured-17.jpeg",
-  ],
-  location: "Residenciales San José, San José Pinula - Bulevar principal",
-  category: "Vendida",
-  bedrooms: 3, // 2 en segundo nivel + 1 que puede usarse como bodega/habitación
-  bathrooms: 2,
-  embeded: false,
-  size: 140,
-  type: "Casa + Local",
-  description: "Casa con local comercial independiente. Ideal para quienes buscan vivienda con espacio para negocio propio. Amplias habitaciones, terraza y excelente ubicación sobre bulevar principal.",
-  area: "San José Pinula",
-  details: [{
-    Niveles: 2,
-    Habitaciones: 3,
-    Baños: 2,
-    Parqueo: 0
-  }],
-  amenidades: [
-    "Local comercial independiente",
-    "Terraza con acceso desde segundo nivel",
-    "Área de lavandería",
-  ],
-  features: [
-    "Local con baño propio",
-    "Bodega/habitación en primer nivel con baño",
-    "Sala, comedor y cocina en segundo nivel",
-    "Financiamiento bancario disponible",
-    "Aplica con remesas, negocio propio o salario"
-  ]
-},
-
 
 {
   id: 15,

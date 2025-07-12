@@ -16,7 +16,7 @@ const Hero = () => {
   const carouselImages = [
     "images/banner.png",
     "images/banner2.png",
-    "images/banner4.png",
+    "images/banner3.png",
   ];
 
   const uniqueLocations = [...new Set(list.map(item => item.location))];
@@ -38,6 +38,7 @@ const Hero = () => {
     autoplaySpeed: 1000,
     fade: true,
     arrows: false,
+
   };
 
   const handleSearch = (e) => {
@@ -69,7 +70,7 @@ const Hero = () => {
           <div className="slider-container">
             <Slider {...settings}>
               {carouselImages.map((image, index) => (
-                <div key={index}>
+                <div key={index} >
                   <img
                     src={image}
                     alt={`Slide ${index + 1}`}
