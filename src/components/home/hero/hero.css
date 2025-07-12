@@ -122,7 +122,7 @@ html, body {
 
 form.flex {
   position: absolute;
-  top: calc(70% ); 
+  top: calc(75% ); 
   left: 5%;
   right: 30%;
   background-color: #fff;
