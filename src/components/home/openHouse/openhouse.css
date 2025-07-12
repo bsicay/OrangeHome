@@ -1,0 +1,176 @@
+
+.openhouse {
+  position: relative;   /* para posicionar iconos */
+  padding: 0rem;
+  background: rgb(255, 255, 255);
+}
+
+/* Grid para flyer + 3D */
+.oh-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: -0rem;
+  margin-bottom: 4rem;
+  align-items: stretch;
+}
+
+.oh-flyer img {
+  padding-left: 6rem;
+   background-color: rgba(255,255,255,0.5);
+  border-color: white;
+  width: 80%;
+  height: auto;
+  padding-top: 0;
+  object-fit: contain;
+}
+
+/* Contenedor para el model-viewer */
+.oh-3dmodel {
+  
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden;
+}
+
+/* Contenedor de iconos */
+.oh-video-icons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+/* Estilo de cada icono */
+.video-icon {
+  font-size: 2rem;
+  color: #f49730;
+  background: rgba(255,255,255,0.8);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.video-icon:hover {
+  background: rgba(255,255,255,1);
+  transform: scale(1.1);
+}
+
+/* Si quieres desplazar uno de los iconos un poco más arriba (opcional) */
+.icon1 { /* primer vídeo */ }
+.icon2 { /* segundo vídeo */ }
+
+/* 1. El wrapper ocupa todo el ancho */
+.oh-title-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+  height: 3.5rem; /* ajusta según el alto que quieras del rectángulo mayor */
+}
+
+.oh-title {
+  position: relative;
+  z-index: 3;
+  font-size: 10cap;
+  text-align: right;
+  margin: 0;
+  line-height: 3.5rem; /* para centrar verticalmente dentro del wrapper */
+  padding-right: 7rem; /* espacio al borde derecho */
+  padding-top: 3rem;
+  color: #fff6f6;
+}
+
+.oh-rect {
+  position: absolute;
+  bottom: 0;
+  background-color: #595959;
+  z-index: 1;
+
+}
+
+/* 3a. Rectángulo izquierdo: más estrecho y bajo */
+.oh-rect--left {
+  position: absolute;
+  top: 0;
+  left: 0;               /* parte desde el borde izquierdo de section */
+  width: 47%;            /* ancho relativo: ajústalo */
+  height: 4.0rem;        /* bajo */
+}
+
+
+/* 3b. Rectángulo derecho: más ancho y alto */
+.oh-rect--right {
+  position: absolute;
+  right: 0;              /* parte desde el borde derecho de section */
+  top: 0;
+  width: 58%;            /* cubre el resto */
+  height: 10.5rem;        /* mismo que el wrapper */
+  margin-top: 0rem;
+
+}
+
+@media screen and (max-width: 800px) {
+  .openhouse {
+  position: relative;   /* para posicionar iconos */
+  padding: 0rem;
+  background: #595959;
+}
+  /* 1. Grid a una columna */
+  .oh-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;       /* algo de espacio entre items */
+    margin-bottom: 2rem;
+  }
+
+  /* 2. El contenedor del flyer ocupa todo el ancho */
+  .oh-flyer {
+    width: 100%;
+    padding: 0;        /* quita padding lateral */
+  }
+  .oh-flyer img {
+    width: 100%;       /* que llene el ancho */
+    height: auto;
+    object-fit: contain;
+    padding: 0;        /* elimina padding-left */
+    margin: 0 auto 1rem; /* margen inferior para separación */
+  }
+
+  /* 3. El modelo 3D también ocupa todo el ancho */
+  .oh-3dmodel {
+    width: 100%;
+    min-height: 300px; /* altura reducida en móvil */
+  }
+
+  /* 4. Título centrado y con altura automática */
+  .oh-title-wrapper {
+    height: auto;      /* que se ajuste al contenido */
+    margin-bottom: 1.5rem;
+  }
+  .oh-title {
+    text-align: center;
+    font-size: 2rem;   /* tamaño legible en móvil */
+    line-height: 1.2;
+    padding-right: 0;  /* quita el padding de la derecha */
+    padding-bottom: 0.5em;
+    color: #ffffff;
+  }
+  .oh-rect--left,
+  .oh-rect--right {
+    display: none;     /* opcional: oculta los rectángulos en móvil */
+  }
+
+  /* 5. Iconos de PiP más accesibles */
+  .oh-video-icons {
+    bottom: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+  .video-icon {
+    font-size: 1.8rem;
+    padding: 8px;
+  }
+}
