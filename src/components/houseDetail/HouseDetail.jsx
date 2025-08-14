@@ -25,7 +25,7 @@ const HouseDetail = () => {
     return <div>Casa no encontrada</div>;
   }
 
-  const { name, location, description, embeded, images, details, features, amenidades, featuredImages } = house;
+  const { name, location, description, embeded,src, images, details, features, amenidades, featuredImages } = house;
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -155,7 +155,7 @@ const HouseDetail = () => {
             allow="xr-spatial-tracking; gyroscope; accelerometer" 
             allowFullScreen 
             scrolling="no" 
-            src="https://kuula.co/share/hldcn/collection/7bYY8?logo=1&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1"
+            src={src}
           ></iframe>
         </div>
       </>

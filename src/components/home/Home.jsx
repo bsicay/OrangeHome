@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <OpenHouse /> 
+      {/* <OpenHouse />  */}
       <Recent />
       {/* <Awards /> */}
       <Location />
