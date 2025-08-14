@@ -56,10 +56,24 @@ const Team = () => {
                   <i className='fa fa-location-dot'></i>
                   <h4>{val.name}</h4>
                   <div className='button flex'>
-                    <button>
-                      <i className='fa fa-envelope'></i>
-                      Mensaje
-                    </button>
+                    {val.whatsapp ? (
+                      <a
+                        href={`https://wa.me/${val.whatsapp.replace(/\s/g, '')}?text=Hola%20${val.name},%20estoy%20interesado%20en%20una%20propiedad%20de%20OrangeHome`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="whatsapp-btn"
+                      >
+                        <FontAwesomeIcon icon={faWhatsapp} style={{
+                          fontSize: "20px",
+                        }} />
+                        WhatsApp
+                      </a>
+                    ) : (
+                      <button>
+                        <i className='fa fa-envelope'></i>
+                        Mensaje
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>

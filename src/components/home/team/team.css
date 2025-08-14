@@ -156,6 +156,25 @@
   background-color: #ff8800;
 }
 
+/* Estilos para botones de WhatsApp en tarjetas de agentes */
+.team .box .whatsapp-btn {
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.team .box .whatsapp-btn:hover {
+  background: #128c7e;
+}
+
 @media screen and (max-width: 768px) {
 
   .primary-agent {

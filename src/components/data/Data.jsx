@@ -1422,6 +1422,7 @@ export const team = [
     cover: "images/customer/team-5.jpg",
     address: "Briarwood Drive",
     name: "Reyna",
+    whatsapp: "+50241548802",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -1430,6 +1431,7 @@ export const team = [
     cover: "images/customer/team-8.jpg",
     address: "Montreal, USA",
     name: "Justyn",
+    whatsapp: "+50241548802",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
