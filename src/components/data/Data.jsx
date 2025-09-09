@@ -1361,6 +1361,221 @@ export const list = [
     "Cuotas desde Q4,040"
   ]
 },
+{
+  id: 32,
+  cover: "images/featured/32/featured-3.jpeg",
+  name: "Casa en Claveles",
+  images: [
+    "images/featured/32/featured-4.jpeg",
+    "images/featured/32/featured-5.jpeg",
+    "images/featured/32/featured-6.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/32/featured-1.jpeg",
+    "images/featured/32/featured-2.jpeg",
+    "images/featured/32/featured-3.jpeg",
+    "images/featured/32/featured-4.jpeg",
+    "images/featured/32/featured-5.jpeg",
+    "images/featured/32/featured-6.jpeg",
+    "images/featured/32/featured-7.jpeg",
+    "images/featured/32/featured-8.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Claveles",
+  category: "En venta",
+  bedrooms: 4,
+  bathrooms: 2.5,
+  embeded: false,
+  size: 112,
+  type: "Casa",
+  description: "Preciosa casa en venta ubicada en Claveles, Residenciales San José. Con parqueo para 2 vehículos, sala comedor, cocina, lavandería techada y 4 habitaciones con construcción 100% block.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 4,
+    Baños: 2.5,
+    Parqueo: 2
+  }],
+  amenidades: [
+    "Parqueo para 2 vehículos",
+    "Sala comedor",
+    "Cocina",
+    "Lavandería techada"
+  ],
+  features: [
+    "4 habitaciones",
+    "2.5 baños",
+    "Construcción 100% block",
+    "Patio y área verde atrás",
+    "Terreno de 76 m²",
+    "Construcción de 112 m²",
+    "Financiamiento bancario disponible",
+    "Enganche desde Q40,000",
+    "Cuotas desde Q5,200"
+  ]
+},
+{
+  id: 33,
+  cover: "images/featured/33/featured-12.jpeg",
+  name: "Casa en Claveles",
+  images: [
+    "images/featured/33/featured-1.jpeg",
+    "images/featured/33/featured-2.jpeg",
+    "images/featured/33/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/33/featured-1.jpeg",
+    "images/featured/33/featured-2.jpeg",
+    "images/featured/33/featured-3.jpeg",
+    "images/featured/33/featured-4.jpeg",
+    "images/featured/33/featured-5.jpeg",
+    "images/featured/33/featured-6.jpeg",
+    "images/featured/33/featured-7.jpeg",
+    "images/featured/33/featured-8.jpeg",
+    "images/featured/33/featured-9.jpeg",
+    "images/featured/33/featured-10.jpeg",
+    "images/featured/33/featured-11.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Claveles",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 2.5,
+  embeded: false,
+  size: 130,
+  type: "Casa",
+  description: "Preciosa casa en venta ubicada en Claveles, Residenciales San José. Con parqueo para 2 vehículos, sala comedor, cocina, lavandería techada y 3 habitaciones con construcción 100% block.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 2.5,
+    Parqueo: 2
+  }],
+  amenidades: [
+    "Parqueo para 2 vehículos",
+    "Sala comedor",
+    "Cocina",
+    "Lavandería techada"
+  ],
+  features: [
+    "3 habitaciones",
+    "2.5 baños",
+    "Construcción 100% block",
+    "Patio y área verde atrás",
+    "Terreno de 87 m²",
+    "Construcción de 130 m²",
+    "Financiamiento bancario disponible",
+    "Enganche desde Q50,000",
+    "Cuotas desde Q5,600+ seguros"
+  ]
+},
+{
+  id: 34,
+  cover: "images/featured/34/featured-1.jpeg",
+  name: "Casa en Geranios 2",
+  images: [
+    "images/featured/34/featured-3.jpeg",
+    "images/featured/34/featured-4.jpeg",
+    "images/featured/34/featured-5.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/34/featured-1.jpeg",
+    "images/featured/34/featured-2.jpeg",
+    "images/featured/34/featured-3.jpeg",
+    "images/featured/34/featured-4.jpeg",
+    "images/featured/34/featured-5.jpeg",
+    "images/featured/34/featured-6.jpeg",
+    "images/featured/34/featured-7.jpeg",
+    "images/featured/34/featured-8.jpeg",
+    "images/featured/34/featured-9.jpeg",
+    "images/featured/34/featured-10.jpeg",
+    "images/featured/34/featured-11.jpeg",
+    "images/featured/34/featured-12.jpeg",
+  ],
+  location: "Residenciales San José, San José Pinula - Geranios 2",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 3,
+  embeded: false,
+  size: 98,
+  type: "Casa",
+  description: "Preciosa casa en venta ubicada en Geranios 2, Residenciales San José. Con parqueo para 2 vehículos, sala comedor, cocina, lavandería y 3 habitaciones con 3 baños completos.",
+  area: "San José Pinula",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 3,
+    Parqueo: 2
+  }],
+  amenidades: [
+    "Parqueo para 2 vehículos",
+    "Sala comedor",
+    "Cocina",
+    "Lavandería"
+  ],
+  features: [
+    "3 habitaciones",
+    "3 baños completos",
+    "Construcción 100% block",
+    "Terreno de 5x18 m",
+    "Construcción de 98 m²",
+    "Financiamiento bancario disponible"
+  ]
+},
+{
+  id: 35,
+  cover: "images/featured/35/featured-1.jpeg",
+  name: "Casa con Local Comercial en Colinas del Norte",
+  images: [
+    "images/featured/35/featured-1.jpeg",
+    "images/featured/35/featured-2.jpeg",
+    "images/featured/35/featured-3.jpeg",
+  ],
+  featuredImages: [
+    "images/featured/35/featured-1.jpeg",
+    "images/featured/35/featured-2.jpeg",
+    "images/featured/35/featured-3.jpeg",
+    "images/featured/35/featured-4.jpeg",
+    "images/featured/35/featured-5.jpeg",
+    "images/featured/35/featured-6.jpeg",
+    "images/featured/35/featured-7.jpeg",
+    "images/featured/35/featured-8.jpeg",
+    "images/featured/35/featured-9.jpeg",
+    "images/featured/35/featured-10.jpeg",
+    "images/featured/35/featured-11.jpeg",
+    "images/featured/35/featured-12.jpeg",
+    "images/featured/35/featured-13.jpeg",
+  ],
+  location: "Colinas del Norte",
+  category: "En venta",
+  bedrooms: 3,
+  bathrooms: 3,
+  embeded: false,
+  size: 115,
+  type: "Casa + Local",
+  description: "Casa de 2 niveles con local comercial amplio con baño independiente, ideal para negocio. Ubicada en Colinas del Norte, zona de crecimiento con excelente acceso y entorno residencial.",
+  area: "Colinas del Norte",
+  details: [{
+    Niveles: 2,
+    Habitaciones: 3,
+    Baños: 3,
+    Parqueo: 1
+  }],
+  amenidades: [
+    "Local comercial con baño independiente",
+    "Jardín",
+    "Lavandería"
+  ],
+  features: [
+    "Primer nivel: Sala, comedor, cocina, lavandería, jardín, 1 baño completo",
+    "Segundo nivel: 3 habitaciones (principal con balcón y baño completo, 2 secundarias comparten baño)",
+    "Terreno de 7x17 m",
+    "115 m² de construcción",
+    "Valor: Q745,000",
+    "Enganche desde Q45,000",
+    "Cuotas desde Q6,250",
+    "Financiamiento bancario disponible"
+  ]
+},
 
 
 
